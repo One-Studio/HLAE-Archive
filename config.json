@@ -1,0 +1,30 @@
+{
+  "TargetOwner": "advancedfx",
+  "TargetRepo": "advancedfx",
+  "TargetGH": true,
+  "TargetAPI": "",
+  "TargetDLink": "",
+  "ArchiverOwner": "One-Studio",
+  "ArchiverRepo": "HLAE-Archive",
+  "ArchiverGH": true,
+  "ArchiverAPI": "",
+  "ArchiverVersion": "v0.3.1",
+  "Version": "",
+  "VersionList": [],
+  "Checktime": "",
+  "Format": 1,
+  "CompRatio": 2,
+  "DistPath": "dist",
+  "Filter": [
+    ".zip",
+    ".exe"
+  ],
+  "DeleteFilter": [
+    {
+      "Index": "",
+      "List": [
+        ""
+      ]
+    }
+  ]
+}
