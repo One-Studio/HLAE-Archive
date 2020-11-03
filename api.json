@@ -1,14 +1,15 @@
 {
-  "Version": "v2.109.1",
+  "Version": "v2.109.2",
   "VersionList": [
+    "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2020-10-20T12:16:01Z",
-  "CheckTime": "2020-11-03T04:37Z",
+  "ReleaseTime": "2020-11-03T17:19:37Z",
+  "CheckTime": "2020-11-03T18:17Z",
   "DownloadLink": [
-    "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive/dist/hlae_2_109_1.zip",
+    "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive/dist/hlae_2_109_2_1.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "**HLAE 2.109.1 (2020-10-20T12:04Z)**\r\n* Included AfxHookSource 1.92.1 (2020-10-20T12:04Z).\r\n\r\n**AfxHookSource 1.92.1 (2020-10-20T12:04Z)**\r\n* Fixed HUD flickering when mirv_pov player was spectating another player."
+  "ReleaseNote": "**HLAE 2.109.2 (2020-11-03T16:48Z)**\r\n* Included AfxHookSource 1.92.2 (2020-11-03T16:48Z).\r\n\r\n**AfxHookSource 1.92.2 (2020-11-03T16:48Z)**\r\n* Fixed #402 mirv_pov and FOV zooming, thanks to lorem.\r\n\r\n**This release is a full rebuild, it might thus trigger false positives in some anti virus programs. If this a problem, consider using one of the previous [Releases](https://github.com/advancedfx/advancedfx/releases) until the issue is resolved.**\r\n\r\nThanks to translators!"
 }
