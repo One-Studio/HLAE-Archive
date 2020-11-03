@@ -1,9 +1,14 @@
 {
-  "Version": "",
-  "VersionList": [],
-  "ReleaseTime": "",
-  "CheckTime": "",
-  "DownloadLink": [],
+  "Version": "v2.109.1",
+  "VersionList": [
+    "v2.109.1"
+  ],
+  "ReleaseTime": "2020-10-20T12:16:01Z",
+  "CheckTime": "2020-11-03T04:37Z",
+  "DownloadLink": [
+    "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive/dist/hlae_2_109_1.zip",
+    "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive/dist/HLAE_Setup.exe"
+  ],
   "Format": 1,
-  "ReleaseNote": ""
+  "ReleaseNote": "**HLAE 2.109.1 (2020-10-20T12:04Z)**\r\n* Included AfxHookSource 1.92.1 (2020-10-20T12:04Z).\r\n\r\n**AfxHookSource 1.92.1 (2020-10-20T12:04Z)**\r\n* Fixed HUD flickering when mirv_pov player was spectating another player."
 }
