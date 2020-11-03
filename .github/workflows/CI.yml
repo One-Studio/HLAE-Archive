@@ -51,10 +51,10 @@ jobs:
       # 读取下载地址
       - name: Read DownloadLink
         if: env.tVer == env.cVer
-          id: downloadlink
-          uses: juliangruber/read-file-action@v1
-          with:
-            path: ./download_link
+        id: downloadlink
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./download_link
 
       # 运行工具
       - name: Github Release create, update, and upload assets
