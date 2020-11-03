@@ -1,8 +1,9 @@
 name: release CI
 
 on:
-  schedule:
-    - cron:  '30 * * * *'
+  push
+  #schedule:
+  #  - cron:  '30 * * * *'
       # 每30分钟：'30 * * * *'
       # 每1小时：'* 1 * * *'
       # ！最少5分钟
