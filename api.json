@@ -1,15 +1,16 @@
 {
-  "Version": "v2.109.2",
+  "Version": "v2.109.3",
   "VersionList": [
+    "v2.109.3",
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2020-11-03T17:19:37Z",
-  "CheckTime": "2020-11-03T18:17Z",
+  "ReleaseTime": "2020-12-01T18:58:25Z",
+  "CheckTime": "2020-12-01T18:59Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "**HLAE 2.109.2 (2020-11-03T16:48Z)**\r\n* Included AfxHookSource 1.92.2 (2020-11-03T16:48Z).\r\n\r\n**AfxHookSource 1.92.2 (2020-11-03T16:48Z)**\r\n* Fixed #402 mirv_pov and FOV zooming, thanks to lorem.\r\n\r\n**This release is a full rebuild, it might thus trigger false positives in some anti virus programs. If this a problem, consider using one of the previous [Releases](https://github.com/advancedfx/advancedfx/releases) until the issue is resolved.**\r\n\r\nThanks to translators!"
+  "ReleaseNote": "**HLAE 2.109.3 (2020-12-01T18:39Z)**\r\n* Included AfxHookSource 1.92.3 (2020-12-01T18:39Z).\r\n\r\n**AfxHookSource 1.92.3 (2020-12-01T18:39Z)**\r\n* mirv_calcs cam smooth calc: Fixed the map change problem and also the crash problem if the delta time gets too large. If you customized the timing (halfTimeXXX) you will need to divide them by 2*ln(2) = approximately 1.3862943611198906188344642429164\r\n\r\n```\r\n// Bonus config for smoothing the camera:\r\n// For key assignment see: https://github.com/advancedfx/advancedfx/wiki/Source%3Amirv_input#mirv_input-camera (New mouse buttons (left / right) + mousemove and mousewheel are not documented there yet.)\r\n\r\nmirv_input cfg ksens 1\r\nmirv_input cfg msens 0.05\r\n\r\n// The smooth uses a trackhandle that when changes resets the smoothing, since we want to always smooth we use a constant handle value (-1):\r\nmirv_calcs handle add value invalid -1\r\nmirv_calcs cam add current game\r\nmirv_calcs cam add smooth smooth game invalid\r\n\r\nmirv_calcs cam edit smooth halfTime 0.5 // sets all half life time for vec (position), and (rotation), fov (field of view) to same value in seconds.\r\n\r\n// Uncomment to set independently:\r\n// mirv_calcs cam edit smooth halfTimeVec 0.5\r\n// mirv_calcs cam edit smooth halfTimeAng 0.5 // Tip: Use 0 value to disable smoothing, or use e.g. 0.1 value for lower delay and less smoothing.\r\n// mirv_calcs cam edit smooth halfTimeFov 0.5\r\nmirv_calcs vecAng add cam smooth smooth\r\nmirv_calcs fov add cam smooth smooth\r\n\r\nalias \"afx_smooth_on\" \"mirv_cam order move input 0; mirv_cam source calcVecAng smooth; mirv_cam fov calc smooth; mirv_input camera; mirv_input cfg offsetMode ownLast; mirv_input cfg mouseMoveSupport 1\"\r\nalias \"afx_smooth_off\" \"mirv_input end; mirv_cam source calcVecAngClear; mirv_cam fov calcClear; mirv_cam order default; mirv_input cfg offsetMode last; mirv_input cfg mouseMoveSupport 0\"\r\n\r\nafx_smooth_on\r\n\r\necho \"enter afx_smooth_off to turn smooth off\"\r\n```"
 }
