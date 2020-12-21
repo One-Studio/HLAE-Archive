@@ -1,17 +1,18 @@
 {
-  "Version": "v2.109.4",
+  "Version": "v2.109.6",
   "VersionList": [
+    "v2.109.6",
     "v2.109.4",
     "v2.109.3",
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2020-12-04T11:02:56Z",
-  "CheckTime": "2020-12-04T11:04Z",
+  "ReleaseTime": "2020-12-21T07:45:07Z",
+  "CheckTime": "2020-12-21T07:46Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "**HLAE 2.109.4 (2020-12-04T10:46Z)**\r\n* Included AfxHookSource 1.92.4 (2020-12-04T10:46Z).\r\n\r\n**AfxHookSource 1.92.4 (2020-12-04T10:46Z)**\r\n* Adjusted to CS:GO 12/03/2020 update: Fixes mirv_pov crashing / error adresses.cpp:1965."
+  "ReleaseNote": "**HLAE 2.109.6 (2020-12-21T08:09Z)**\r\n* Fixed UI Language detection in installer.\r\n* Added newer FFMPEG from https://github.com/BtbN/FFmpeg-Builds/releases to installer, removed some older ones from the selection.\r\n* Included AfxHookSource 1.92.6 (2020-12-21T08:09Z).\r\n\r\n**AfxHookSource 1.92.5 (2020-12-21T08:09Z)**\r\n* Fixed quaternion interpolation not taking shortest path for mirv_calcs cam smooth, mirv_cals vecAng motionProfile2, fixes #413. To restore the old behaviour set rotShortestPath 0 on those calcs by editing them."
 }
