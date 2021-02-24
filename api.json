@@ -1,6 +1,7 @@
 {
-  "Version": "v2.109.8",
+  "Version": "v2.109.9",
   "VersionList": [
+    "v2.109.9",
     "v2.109.8",
     "v2.109.7",
     "v2.109.6",
@@ -9,12 +10,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-01-25T13:55:41Z",
-  "CheckTime": "2021-01-25T13:57Z",
+  "ReleaseTime": "2021-02-24T22:41:54Z",
+  "CheckTime": "2021-02-24T22:43Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "**HLAE 2.109.8 (2021-01-25T13:23Z)**\r\n* Included AfxHookGoldSrc 2.10.1 (2021-01-25T13:23Z).\r\n\r\n**AfxHookGoldSrc 2.10.1 (2021-01-25T13:23Z)**\r\n*  Fixed wrongly returning a function for server.dll GetBlendingInterface when there actually is none, which causes errors for live TAS captures with HLAE in Half-Life. Please note that we do not recommend to live capture with HLAE, HLAE is meant for demos only mostly. Thanks to quadkid from advancedfx Discord for reporting the issue. "
+  "ReleaseNote": "**HLAE 2.109.9 (2021-02-24T22:03Z)**\r\n* Included AfxHookGoldSrc 2.10.2 (2021-02-24T22:03Z).\r\n* Included AfxHookSource 1.92.7 (2021-02-24T22:03Z).\r\n* Updated installer FFMPEG download latest to https://github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2021-01-31-12-37.\r\n\r\n**AfxHookGoldSrc 2.10.2 (2021-02-24T22:03Z)**\r\n*  Fix mirv_movie_playdemostop not working for GoldSrc #598 - Thanks https://github.com/hobokenn \r\n\r\n**AfxHookSource 1.92.6 (2021-02-24T22:03Z)**\r\n* Minor cosmetic changes in mirv_streams code (should not affect users)."
 }
