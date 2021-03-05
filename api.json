@@ -1,6 +1,7 @@
 {
-  "Version": "v2.109.9",
+  "Version": "v2.110.0",
   "VersionList": [
+    "v2.110.0",
     "v2.109.9",
     "v2.109.8",
     "v2.109.7",
@@ -10,12 +11,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-02-24T22:41:54Z",
-  "CheckTime": "2021-02-24T22:43Z",
+  "ReleaseTime": "2021-03-05T13:31:14Z",
+  "CheckTime": "2021-03-05T13:32Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "**HLAE 2.109.9 (2021-02-24T22:03Z)**\r\n* Included AfxHookGoldSrc 2.10.2 (2021-02-24T22:03Z).\r\n* Included AfxHookSource 1.92.7 (2021-02-24T22:03Z).\r\n* Updated installer FFMPEG download latest to https://github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2021-01-31-12-37.\r\n\r\n**AfxHookGoldSrc 2.10.2 (2021-02-24T22:03Z)**\r\n*  Fix mirv_movie_playdemostop not working for GoldSrc #598 - Thanks https://github.com/hobokenn \r\n\r\n**AfxHookSource 1.92.6 (2021-02-24T22:03Z)**\r\n* Minor cosmetic changes in mirv_streams code (should not affect users)."
+  "ReleaseNote": "**HLAE 2.110.0 (2021-03-05T12:02Z)**\r\n* Included AfxHookSource 1.93.0 (2021-03-05T12:02Z).\r\n\r\n**AfxHookSource 1.93.0 (2021-03-05T12:02Z)**\r\n* Fixed mirv_streams baseFx streams not getting truly removed and lingering around, causing oddities, fixes #601.\r\n* Added option 2 to mirv_fix selectedPlayerGlow 0|1|2 (2 means always glow selected player), required for #603.\r\n* Improved glow color render passs detection, required for #603.\r\n* Added option normailze 0|1 to glowColorMap action, required for #603. This option is disabled (0) by default for backwards compatibility, but we strongly recommend to enable it (1).\r\n\r\nThe HLAE Wiki article https://github.com/advancedfx/advancedfx/wiki/CS:GO-Changing-X-Ray-color will be updated with an example how to glow/xray only on the spectated player using 3rd person camera (#603). "
 }
