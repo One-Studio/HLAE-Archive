@@ -1,6 +1,7 @@
 {
-  "Version": "v2.110.0",
+  "Version": "v2.111.0",
   "VersionList": [
+    "v2.111.0",
     "v2.110.0",
     "v2.109.9",
     "v2.109.8",
@@ -11,12 +12,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-03-05T13:31:14Z",
-  "CheckTime": "2021-03-05T13:32Z",
+  "ReleaseTime": "2021-03-13T13:53:37Z",
+  "CheckTime": "2021-03-13T13:54Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "**HLAE 2.110.0 (2021-03-05T12:02Z)**\r\n* Included AfxHookSource 1.93.0 (2021-03-05T12:02Z).\r\n\r\n**AfxHookSource 1.93.0 (2021-03-05T12:02Z)**\r\n* Fixed mirv_streams baseFx streams not getting truly removed and lingering around, causing oddities, fixes #601.\r\n* Added option 2 to mirv_fix selectedPlayerGlow 0|1|2 (2 means always glow selected player), required for #603.\r\n* Improved glow color render passs detection, required for #603.\r\n* Added option normailze 0|1 to glowColorMap action, required for #603. This option is disabled (0) by default for backwards compatibility, but we strongly recommend to enable it (1).\r\n\r\nThe HLAE Wiki article https://github.com/advancedfx/advancedfx/wiki/CS:GO-Changing-X-Ray-color will be updated with an example how to glow/xray only on the spectated player using 3rd person camera (#603). "
+  "ReleaseNote": "**HLAE 2.111.0 (2021-03-13T13:03Z)**\r\n* Included AfxHookGoldSrc 2.11.0 (2021-03-13T13:03Z).\r\n* Included AfxHookSource 1.93.1 (2021-03-13T13:03Z).\r\n\r\n**AfxHookGoldSrc 2.11.2 (2021-03-13T13:03Z)**\r\n*  Added mirv_agr command for GoldSrc. Known problems: Some special effects on models (e.g. the distortion on the hologram or left-handed models) will not be accurate, because they can't be accurately represented in AGR version 5.  \r\n Tested with Blender Source Tools 3.1.0, afx-blender-scripts 1.12.1, Crowbar 0.71.  \r\n Please note when using games with hires models (e.g. Half-Life single player regardless of cl_himodels, Half-Life multiplayer with cl_himodels 1), you will need to make sure to extract the right models, otherwise you will get broken results! If hires models are used decompile lowres version (e.g. valve/models) first and on-top of that decompile hires models (e.g. valve_hd/models). \r\n\r\n**AfxHookSource 1.93.1 (2021-03-13T13:03Z)**\r\n* Minor cosmetic code structure changes related to AGR."
 }
