@@ -1,6 +1,7 @@
 {
-  "Version": "v2.112.0",
+  "Version": "v2.113.0",
   "VersionList": [
+    "v2.113.0",
     "v2.112.0",
     "v2.111.0",
     "v2.110.0",
@@ -13,12 +14,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-03-22T08:27:19Z",
-  "CheckTime": "2021-03-22T08:28Z",
+  "ReleaseTime": "2021-03-24T07:28:26Z",
+  "CheckTime": "2021-03-24T07:29Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "**HLAE 2.112.0 (2021-03-22T07:11Z)**\r\n* Included AfxHookSource 1.94.0 (2021-03-22T07:11Z).\r\n\r\n**AfxHookSource 1.94.0 (2021-03-22T07:11Z)**\r\n* Added support for spectator key to mirv_replace_name and mirv_deathmsg (prefix k).\r\n* Addded mirv_replace_name filter removeMatching, which will remove all from the list that _currently_ match the given argument."
+  "ReleaseNote": "**HLAE 2.113.0 (2021-03-24T06:00Z)**\r\n* Included AfxHookSource 1.95.0 (2021-03-24T6:00Z).\r\n\r\n**AfxHookSource 1.95.0 (2021-03-24T06:00Z)**\r\n* Fixed mirv_replace_name not working e.g. in defusal message.\r\n* Added optional mode parameter to mirv_replace_name filter add to specify if to replace name (1), decorated name(2) or both (3, default).\r\n* Added mirv_replace_team_name."
 }
