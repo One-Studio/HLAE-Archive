@@ -1,6 +1,7 @@
 {
-  "Version": "v2.113.1",
+  "Version": "v2.113.2",
   "VersionList": [
+    "v2.113.2",
     "v2.113.1",
     "v2.113.0",
     "v2.112.0",
@@ -15,12 +16,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-04-09T05:21:28Z",
-  "CheckTime": "2021-04-09T05:22Z",
+  "ReleaseTime": "2021-04-10T04:59:00Z",
+  "CheckTime": "2021-04-10T05:00Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "# HLAE 2.113.1 (2021-04-09T05:05Z)\r\n\r\n* Included AfxHookGoldSrc 2.11.3 (2021-04-09T05:05Z).\r\n\r\n**Since the binaries are fully rebuilt it might temporarily trigger your anti virus with a false positive on injector.exe, please either add an exception or use the previous version until this issue is resolved.**\r\n\r\n## AfxHookGoldSrc 2.11.3 (2021-04-09T05:05Z)\r\n* Multiple GoldSrc AGR fixes."
+  "ReleaseNote": "# HLAE 2.113.2 (2021-04-10T04:47Z)\r\n* Included AfxHookGoldSrc 2.11.4 (2021-04-10T04:47Z).\r\n\r\n## AfxHookGoldSrc 2.11.4 (2021-04-10T04:47Z)\r\n* Fix GoldSRc AGR gait sequence export."
 }
