@@ -1,6 +1,7 @@
 {
-  "Version": "v2.113.2",
+  "Version": "v2.113.3",
   "VersionList": [
+    "v2.113.3",
     "v2.113.2",
     "v2.113.1",
     "v2.113.0",
@@ -16,12 +17,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-04-10T04:59:00Z",
-  "CheckTime": "2021-04-10T05:00Z",
+  "ReleaseTime": "2021-04-11T04:59:13Z",
+  "CheckTime": "2021-04-11T05:00Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "# HLAE 2.113.2 (2021-04-10T04:47Z)\r\n* Included AfxHookGoldSrc 2.11.4 (2021-04-10T04:47Z).\r\n\r\n## AfxHookGoldSrc 2.11.4 (2021-04-10T04:47Z)\r\n* Fix GoldSRc AGR gait sequence export."
+  "ReleaseNote": "# HLAE 2.113.3 (2021-04-11T04:49Z)\r\n* Included AfxHookGoldSrc 2.11.5 (2021-04-11T04:49Z).\r\n\r\n## AfxHookGoldSrc 2.11.5 (2021-04-11T04:49Z)\r\n* Fix GoldSRc AGR export again, sigh.\r\n\r\n**Please note that the in-eye model of the CS 1.6 knife will be wrong, which is because the engine mirrors the model with cl_righthand 1 and the current AGR format can not express mirroring (same problem you would have for other v_models with cl_righthand 0).**"
 }
