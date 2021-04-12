@@ -1,6 +1,7 @@
 {
-  "Version": "v2.113.3",
+  "Version": "v2.113.4",
   "VersionList": [
+    "v2.113.4",
     "v2.113.3",
     "v2.113.2",
     "v2.113.1",
@@ -17,12 +18,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-04-11T04:59:13Z",
-  "CheckTime": "2021-04-11T05:00Z",
+  "ReleaseTime": "2021-04-12T07:00:56Z",
+  "CheckTime": "2021-04-12T07:02Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "# HLAE 2.113.3 (2021-04-11T04:49Z)\r\n* Included AfxHookGoldSrc 2.11.5 (2021-04-11T04:49Z).\r\n\r\n## AfxHookGoldSrc 2.11.5 (2021-04-11T04:49Z)\r\n* Fix GoldSRc AGR export again, sigh.\r\n\r\n**Please note that the in-eye model of the CS 1.6 knife will be wrong, which is because the engine mirrors the model with cl_righthand 1 and the current AGR format can not express mirroring (same problem you would have for other v_models with cl_righthand 0).**"
+  "ReleaseNote": "# HLAE 2.113.4 (2021-04-12T06:47Z)\r\n* Included AfxHookGoldSrc 2.11.6 (2021-04-12T06:47Z).\r\n\r\n# AfxHookGoldSrc 2.11.6 (2021-04-12T06:47Z)\r\n* Fix GoldSrc AGR gait sequence export regression.\r\n\r\nPlease note that the in-eye model of the CS 1.6 knife will be wrong, which is because the engine mirrors the model with cl_righthand 1 and the current AGR format can not express that (same problem you would have for other v_models with cl_righthand 0). \r\nThis probably also applies e.g. to the hologram in Half-Life hazard course training when it is distored."
 }
