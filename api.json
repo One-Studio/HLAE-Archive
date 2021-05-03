@@ -1,6 +1,7 @@
 {
-  "Version": "v2.113.6",
+  "Version": "v2.113.8",
   "VersionList": [
+    "v2.113.8",
     "v2.113.6",
     "v2.113.5",
     "v2.113.4",
@@ -20,12 +21,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-05-03T09:06:50Z",
-  "CheckTime": "2021-05-03T09:07Z",
+  "ReleaseTime": "2021-05-03T14:59:48Z",
+  "CheckTime": "2021-05-03T15:00Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "# HLAE 2.113.6 (2021-03-05T07:39Z)\r\n* Included AfxHookSource 1.95.2 (2021-03-05T07:39).\r\n* Fixed #644 not updating / re-installing FFMPEG component causes the files to be wrongly removed.\r\n* Updated ffmpeg download #636.\r\n\r\n# AfxHookSource 1.95.2 (2021-05-03T07:39Z)\r\n* Fixes #642 Blue Shadow Bug when using afx/wh.cfg.\r\n* Fixed #643 (crash with stream commands upon disconnect).\r\n* Fixed #641 recordPlayerCameras not recording FOV"
+  "ReleaseNote": "# HLAE 2.113.8 (2021-03-05T14:50Z)\r\n* Fixed update check GUIDs and version number.\r\n* Fixed Ffmpeg dialog not showing upon minor update or repair."
 }
