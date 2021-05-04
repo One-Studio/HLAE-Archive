@@ -1,6 +1,7 @@
 {
-  "Version": "v2.113.8",
+  "Version": "v2.113.9",
   "VersionList": [
+    "v2.113.9",
     "v2.113.8",
     "v2.113.6",
     "v2.113.5",
@@ -21,12 +22,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-05-03T14:59:48Z",
-  "CheckTime": "2021-05-03T15:00Z",
+  "ReleaseTime": "2021-05-04T15:38:50Z",
+  "CheckTime": "2021-05-04T15:40Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "# HLAE 2.113.8 (2021-03-05T14:50Z)\r\n* Fixed update check GUIDs and version number.\r\n* Fixed Ffmpeg dialog not showing upon minor update or repair."
+  "ReleaseNote": "# HLAE 2.113.9 (2021-05-04T15:14Z)\r\n* Fixed default checksum for FFMPEG."
 }
