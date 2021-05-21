@@ -1,6 +1,7 @@
 {
-  "Version": "v2.113.9",
+  "Version": "v2.114.0",
   "VersionList": [
+    "v2.114.0",
     "v2.113.9",
     "v2.113.8",
     "v2.113.6",
@@ -22,12 +23,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-05-04T15:38:50Z",
-  "CheckTime": "2021-05-04T15:40Z",
+  "ReleaseTime": "2021-05-21T08:12:39Z",
+  "CheckTime": "2021-05-21T08:13Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "# HLAE 2.113.9 (2021-05-04T15:14Z)\r\n* Fixed default checksum for FFMPEG."
+  "ReleaseNote": "# HLAE 2.114.0 (2021-05-21T07:16)\r\n* Fixed #637 Parallely opening HLAE can cause HLAE settings loss.\r\n* Did #650 Make injector own project and installer package to avoid frequent AV false-positives due to rebuilds."
 }
