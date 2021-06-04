@@ -1,6 +1,7 @@
 {
-  "Version": "v2.115.0",
+  "Version": "v2.116.0",
   "VersionList": [
+    "v2.116.0",
     "v2.115.0",
     "v2.114.0",
     "v2.113.9",
@@ -24,12 +25,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-05-29T22:12:34Z",
-  "CheckTime": "2021-05-29T22:13Z",
+  "ReleaseTime": "2021-06-04T10:06:33Z",
+  "CheckTime": "2021-06-04T10:07Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "# HLAE 2.115.0 (2021-05-29T22:00Z)\r\n- Updated HLAE loader error messages a bit.\r\n- Installer: Fixed missing injector merge package."
+  "ReleaseNote": "# HLAE 2.116.0 (2021-06-04T09:39Z)\r\n- Included AfxHookSource 1.96.0 (2021-06-04T09:39Z). \r\n\r\n## AfxHookSource 1.96.0 (2021-06-04T09:39Z). \r\n- Adjusted to latest CS:GO 6/3/2021 update.\r\n- Fixed #667 mirv_fix selectedPlayerGlow (used in x-ray configs) crashing with latest CS:GO update."
 }
