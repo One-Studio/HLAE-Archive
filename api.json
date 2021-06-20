@@ -1,6 +1,7 @@
 {
-  "Version": "v2.116.0",
+  "Version": "v2.117.0",
   "VersionList": [
+    "v2.117.0",
     "v2.116.0",
     "v2.115.0",
     "v2.114.0",
@@ -25,12 +26,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-06-04T10:06:33Z",
-  "CheckTime": "2021-06-04T10:07Z",
+  "ReleaseTime": "2021-06-20T12:21:53Z",
+  "CheckTime": "2021-06-20T12:22Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "# HLAE 2.116.0 (2021-06-04T09:39Z)\r\n- Included AfxHookSource 1.96.0 (2021-06-04T09:39Z). \r\n\r\n## AfxHookSource 1.96.0 (2021-06-04T09:39Z). \r\n- Adjusted to latest CS:GO 6/3/2021 update.\r\n- Fixed #667 mirv_fix selectedPlayerGlow (used in x-ray configs) crashing with latest CS:GO update."
+  "ReleaseNote": "# HLAE 2.117.0 (2021-06-20T12:52Z)\r\n- Updated hlae.exe from .NET 4.0 Client to .NET 4.5.\r\n- Fixed config lock not working as intended after saving.\r\n- Included AfxHookGoldSrc 2.12.0 (2021-06-20T12:52Z).\r\n\r\n## AfxHookGoldSrc 2.12.0 (2021-06-20T12:52Z)\r\n- Make campath use client time if not playing demo."
 }
