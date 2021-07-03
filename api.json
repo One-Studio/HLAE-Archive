@@ -1,6 +1,7 @@
 {
-  "Version": "v2.118.0.1",
+  "Version": "v2.118.0.2",
   "VersionList": [
+    "v2.118.0.2",
     "v2.118.0.1",
     "v2.118.0",
     "v2.117.1",
@@ -29,11 +30,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-07-03T07:43:24Z",
-  "CheckTime": "2021-07-03T07:44Z",
+  "ReleaseTime": "2021-07-03T07:58:58Z",
+  "CheckTime": "2021-07-03T07:59Z",
   "DownloadLink": [
-    "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip"
+    "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
+    "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "# HLAE 2.118.0 (2021-07-03T06:50Z)\r\n- Fixed saving / updating of HLAE config.\r\n- Installer: Updated latest FFMPEG version."
+  "ReleaseNote": "This is the same as https://github.com/advancedfx/advancedfx/releases/tag/v2.118.0.1\r\nIt's just in order to make Purple's HLAE Archive push right file version to the jsdeliver.\r\n\r\n# HLAE 2.118.0 (2021-07-03T06:50Z)\r\n- Fixed saving / updating of HLAE config.\r\n- Installer: Updated latest FFMPEG version."
 }
