@@ -1,6 +1,7 @@
 {
-  "Version": "v2.117.1",
+  "Version": "v2.118.0",
   "VersionList": [
+    "v2.118.0",
     "v2.117.1",
     "v2.117.0",
     "v2.116.0",
@@ -27,12 +28,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-06-26T15:17:15Z",
-  "CheckTime": "2021-06-26T15:18Z",
+  "ReleaseTime": "2021-07-03T07:29:11Z",
+  "CheckTime": "2021-07-03T07:30Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "# HLAE 2.117.1 (2021-06-26T15:04Z)\r\n- Included AfxHookSource 1.97.0 (2021-06-26T15:04Z).\r\n\r\n## AfxHookSource 1.97.0 (2021-06-26T15:04Z).\r\n- Fixed #680 mirv_cmd addCurves time not working and a typo."
+  "ReleaseNote": "# HLAE 2.118.0 (2021-07-03T06:50Z)\r\n- Fixed saving / updating of HLAE config.\r\n- Installer: Updated latest FFMPEG version."
 }
