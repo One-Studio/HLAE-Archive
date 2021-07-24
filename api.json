@@ -1,6 +1,7 @@
 {
-  "Version": "v2.118.0.2",
+  "Version": "v2.119.0",
   "VersionList": [
+    "v2.119.0",
     "v2.118.0.2",
     "v2.118.0.1",
     "v2.118.0",
@@ -30,12 +31,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-07-03T07:58:58Z",
-  "CheckTime": "2021-07-03T07:59Z",
+  "ReleaseTime": "2021-07-24T13:32:58Z",
+  "CheckTime": "2021-07-24T13:33Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "This is the same as https://github.com/advancedfx/advancedfx/releases/tag/v2.118.0.1\r\nIt's just in order to make Purple's HLAE Archive push right file version to the jsdeliver.\r\n\r\n# HLAE 2.118.0 (2021-07-03T06:50Z)\r\n- Fixed saving / updating of HLAE config.\r\n- Installer: Updated latest FFMPEG version."
+  "ReleaseNote": "# HLAE 2.119.0 (2021-07-24T13:20Z)\r\n- Reverted fix for double opening settings loss, since it causes more problems (random settings loss) than it actually solves.\r\n- Included AfxHookSource 1.98.0 (2021-07-24T13:20Z).\r\n\r\n## AfxHookSource 1.98.0 (2021-07-24T13:20Z)\r\n- mirv_models replace byWcName - allows to swap models using wild-card based matching"
 }
