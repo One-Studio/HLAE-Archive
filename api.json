@@ -1,6 +1,7 @@
 {
-  "Version": "v2.119.1",
+  "Version": "v2.120.0",
   "VersionList": [
+    "v2.120.0",
     "v2.119.1",
     "v2.119.0",
     "v2.118.0.2",
@@ -32,12 +33,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-08-18T12:35:25Z",
-  "CheckTime": "2021-08-18T12:36Z",
+  "ReleaseTime": "2021-08-23T17:55:10Z",
+  "CheckTime": "2021-08-23T17:56Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "* This is probably only relevant for the no-insecure special release for observers. Fixed default SteamPath environment variable value and auto detection not working. If you use custom loader you will need to fix the value for SteamPath in the second box yourself (there's a space missing, should be e.g. SteamPath=C:\\Program Files (x86)\\Steam instead of WRONG C:\\Program Files(x86)\\Steam)."
+  "ReleaseNote": "# HLAE 2.120.0 (2021-08-23T17:42Z)\r\n- Included AfxHookSource 1.99.0 (2021-08-23T17:42Z).\r\n\r\n## AfxHookSource 1.99.0 (2021-08-23T17:42Z).\r\n- Added \"mirv_fix suppressFileCRCCheck (enabled by default), only relevant for spectator no-insecure version of HLAE though usually."
 }
