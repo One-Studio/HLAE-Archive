@@ -1,6 +1,7 @@
 {
-  "Version": "v2.120.0",
+  "Version": "v2.120.1",
   "VersionList": [
+    "v2.120.1",
     "v2.120.0",
     "v2.119.1",
     "v2.119.0",
@@ -33,12 +34,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-08-23T17:55:10Z",
-  "CheckTime": "2021-08-23T17:56Z",
+  "ReleaseTime": "2021-09-07T15:57:43Z",
+  "CheckTime": "2021-09-07T15:58Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "# HLAE 2.120.0 (2021-08-23T17:42Z)\r\n- Included AfxHookSource 1.99.0 (2021-08-23T17:42Z).\r\n\r\n## AfxHookSource 1.99.0 (2021-08-23T17:42Z).\r\n- Added \"mirv_fix suppressFileCRCCheck (enabled by default), only relevant for spectator no-insecure version of HLAE though usually."
+  "ReleaseNote": "# HLAE 2.120.1 (2021-09-07T15:40Z)\r\n* Included AfxHookGoldSrc 2.12.1 (2021-09-07T15:40Z).\r\n* Included AfxHookSource 1.99.1 (2021-09-07T15:40Z).\r\n\r\n## AfxHookGoldSrc 2.12.1 (2021-09-07T15:40Z)\r\n* Fixed command help for mirv_agr regarding host_framerate (should be seconds per frame, not FPS in GoldSrc (i.e. host_framerate 0.04 for 25 FPS)).\r\n\r\n## AfxHookSource 1.99.1 (2021-09-07T15:40Z)\r\n* Fixed unwanted mirv_pov sounds of other viewmodel weapons."
 }
