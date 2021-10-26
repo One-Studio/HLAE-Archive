@@ -1,6 +1,7 @@
 {
-  "Version": "v2.122.0",
+  "Version": "v2.123.0",
   "VersionList": [
+    "v2.123.0",
     "v2.122.0",
     "v2.121.1",
     "v2.121.0",
@@ -37,12 +38,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-10-23T17:29:04Z",
-  "CheckTime": "2021-10-23T17:30Z",
+  "ReleaseTime": "2021-10-26T07:10:04Z",
+  "CheckTime": "2021-10-26T07:11Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "# HLAE 2.122.0 (2021-10-23T16:24Z)\r\n* Included AfxHookSource 1.101.0 (2021-10-23T16:24Z).\r\n* Updated translations, thank you translators!\r\n* Updated installer FFMPEG latest download (https://github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2021-09-30-12-28).\r\n\r\n## AfxHookSource 1.101.0 (2021-10-23T16:24Z)\r\n* Added mirv_calc vecAng collisionClip that allows to push towards the source point an nother point, based on 5 rays to check for collisons with level or other stuff (#713). Recommend is safeZoneDist of 7 units (7*12/16 inch) for pushing cameras.\r\n* Fixed #714 AGR command interface, and viewmodels in TF2.\r\n* Added optional (default is currently OFF, in case there are bugs) mirv_pov player latency compensation to make GOTVs with mirv_pov a bit more accurate. You can enable it with: mirv_cfg mirvPov interpCompensateLatencyOn, disable with mirv_cfg mirvPov interpCompensateLatencyOff, default with mirv_cfg mirvPov interpDefault. This feature has been / is being developed thanks to input and ideas from David Durst (https://davidbdurst.com/).\r\n* Merged afx-interop-v7 branch into current branch. This should not neagtively affect existing afx_interop features (up to v6, v7 is still under developement), in case you find (new) problems with it, please file a bug report.\r\n\r\n```\r\n// Example config for collisionClip\r\n\r\nmirv_calcs handle add localPlayer localPlayer20211023\r\nmirv_calcs handle add observerTarget observerTarget20211023 localPlayer20211023\r\n\r\nmirv_calcs vecAng add handleAttachment facemaskOrigin20211023 observerTarget20211023 facemask\r\nmirv_calcs vecAng add value faceMaskOffset20211023 100 0 0 0 0 179.9\r\nmirv_calcs vecAng add offset facemaskSource20211023 facemaskOrigin20211023 faceMaskOffset20211023 1\r\nmirv_calcs vecAng add collisionClip facemask20211023 facemaskSource20211023 facemaskOrigin20211023 observerTarget20211023 10.0\r\n\r\nspec_mode 5; mirv_cam source calcVecAng facemask20211023 \r\n```"
+  "ReleaseNote": "# HLAE 2.123.0 (2021-10-26T07:00Z)\r\n* Included AfxHookSource 1.102.0 (2021-10-26T07:00Z).\r\n\r\n## AfxHookSource 1.102.0 (2021-10-26T07:00Z)\r\n* Updated mirv_pov: The GOTV mirv_pov lag compensation feature (implemented thanks to ideas and input from https://davidbdurst.com/) is now enabled by default, also entities predicted / local to the POV-player should be detected accurately now (e.g. viewmodel). If you don't like it, you can disable it with `mirv_cfg mirvPov interpCompensateLatencyOff`. The default cl_interp is a good value, if you happen to know the actual value of the player you can try to get even more accurate by setting it with: `mirv_cvar_hack cl_interp \u003cclInterpValueHere\u003e`"
 }
