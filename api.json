@@ -1,6 +1,7 @@
 {
-  "Version": "v2.124.0",
+  "Version": "v2.124.1",
   "VersionList": [
+    "v2.124.1",
     "v2.124.0",
     "v2.123.0",
     "v2.122.0",
@@ -39,12 +40,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-11-11T07:31:23Z",
-  "CheckTime": "2021-11-11T07:32Z",
+  "ReleaseTime": "2021-11-24T10:08:52Z",
+  "CheckTime": "2021-11-24T10:10Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "# HLAE 2.124.0 (2021-11-11T07:15Z)\r\n- Included AfxHookSource 1.103.0 (2021-11-11T07:15Z).\r\n\r\n## AfxHookSource 1.103.0 (2021-11-11T07:15Z)\r\n- Fixed afx_interop v5 being broken (used by afx-unity-interop).\r\n- Added mirv_block_commands, allows to block e.g. commands recorded in demos. Example: mirv_block_commands add 5 \"volume\\*\""
+  "ReleaseNote": "#HLAE 2.124.1 (2021-11-24T09:49Z)\r\n* Included AfxHookGoldSrc 2.12.2 (2021-11-24T09:49Z).\r\n\r\n## AfxHookGoldSrc 2.12.2 (2021-11-24T09:49Z)\r\n- Fixed #734 wrong quaternion rotation data for mirv_agr even when model is correctly non-mirrored."
 }
