@@ -1,6 +1,7 @@
 {
-  "Version": "v2.124.1",
+  "Version": "v2.124.2",
   "VersionList": [
+    "v2.124.2",
     "v2.124.1",
     "v2.124.0",
     "v2.123.0",
@@ -40,12 +41,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-11-24T10:08:52Z",
-  "CheckTime": "2021-11-24T10:10Z",
+  "ReleaseTime": "2021-11-28T10:52:19Z",
+  "CheckTime": "2021-11-28T10:53Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "#HLAE 2.124.1 (2021-11-24T09:49Z)\r\n* Included AfxHookGoldSrc 2.12.2 (2021-11-24T09:49Z).\r\n\r\n## AfxHookGoldSrc 2.12.2 (2021-11-24T09:49Z)\r\n- Fixed #734 wrong quaternion rotation data for mirv_agr even when model is correctly non-mirrored."
+  "ReleaseNote": "# HLAE 2.124.2 (2021-11-28T09:04Z)\r\n* Included AfxHookGoldSrc 1.104.0 (2021-11-28T09:04Z).\r\n* Fixed the HLAE project to support Debug builds again, see how_to_build.txt for instructions.\r\n\r\n## AfxHookSource 1.104.0 (2021-11-28T09:04Z)\r\n* mirv_agr export: try to fix viewmodel / camera discrepancy in GOTV. Do not forget smoother demos guide, even when recording AGR only.\r\n* Fixed afx_interop v7 getting stuck, by removing queued rendering indication and handling (now always indicates it to be non-queued, there were simply too many problems with detecting if we need to flush or not)."
 }
