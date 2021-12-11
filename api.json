@@ -1,6 +1,7 @@
 {
-  "Version": "v2.124.3",
+  "Version": "v2.124.4",
   "VersionList": [
+    "v2.124.4",
     "v2.124.3",
     "v2.124.2",
     "v2.124.1",
@@ -42,12 +43,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-11-29T09:25:50Z",
-  "CheckTime": "2021-11-29T09:26Z",
+  "ReleaseTime": "2021-12-11T17:29:45Z",
+  "CheckTime": "2021-12-11T17:30Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "# HLAE 2.124.3 (2021-11-29T09:13Z)\r\n- Fixed missing DLL files causing hooks to not work."
+  "ReleaseNote": "# HLAE 2.124.4 (2021-12-11T17:06Z)\r\n* Included AfxHookSource 1.104.1 (2021-12-11T17:06Z).\r\n\r\n## AfxHookSource 1.104.1 (2021-12-11T17:06Z)\r\n* Adjusted to CS:GO 12/10/2021 update:\r\n  * Fixed local player detection for sky-box scale (required for depth streams).\r\n  * Fixed GetPlayerName function hook (required for mirv_detahmsg / mirv_replace_name).\r\n  * Fixed mirv_pov / crosshair hook for showing custom crosshair of player.  "
 }
