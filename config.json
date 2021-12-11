@@ -9,8 +9,9 @@
   "ArchiverGH": true,
   "ArchiverAPI": "",
   "ArchiverVersion": "v1.2.1",
-  "Version": "v2.124.5",
+  "Version": "v2.124.6",
   "VersionList": [
+    "v2.124.6",
     "v2.124.5",
     "v2.124.4",
     "v2.124.3",
@@ -54,7 +55,7 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "CheckTime": "2021-12-11T21:12Z",
+  "CheckTime": "2021-12-11T22:31Z",
   "Format": 1,
   "CompRatio": 2,
   "DistPath": "dist",
