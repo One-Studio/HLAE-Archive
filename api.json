@@ -1,6 +1,7 @@
 {
-  "Version": "v2.124.6",
+  "Version": "v2.125.0",
   "VersionList": [
+    "v2.125.0",
     "v2.124.6",
     "v2.124.5",
     "v2.124.4",
@@ -45,12 +46,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2021-12-11T22:30:36Z",
-  "CheckTime": "2021-12-11T22:31Z",
+  "ReleaseTime": "2022-02-01T11:47:55Z",
+  "CheckTime": "2022-02-01T11:48Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "# HLAE 2.124.6 (2021-12-11T21:41Z)\r\n* Included AfxHookSource 1.104.3 (2021-12-11T21:41Z).\r\n\r\n##  AfxHookSource 1.104.3 (2021-12-11T21:41Z).\r\n* Fixed (again) mirv_pov crashing on demos when local palyer was not connected after adjusting to CS:GO 12/10/2021 update."
+  "ReleaseNote": "# HLAE 2.125.0 (2021-02-01T11:00Z)\r\n* Included AfxHookSource 1.105.0 (2022-02-01T11:00Z).\r\n* Custom loader will not have AppIDs by default, so games like TF2 will not crash.\r\n* Added pt-BR language to translations (thanks Rillet).\r\n* Updated translations(thanks yovaN, Twissen).\r\n* Updated FFMPEG downloadd in installer to https://github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2022-01-31-12-27, removed other downloads.\r\n\r\n## AfxHookSource 1.105.0 (2022-02-01T11:00Z)\r\n*  Add feature to set camera faster than normal command execution (which is tickrate limited) in mirv_pgl, see https://github.com/advancedfx/advancedfx/blob/main/misc/mirv_pgl_test/server.js#L18 for an example."
 }
