@@ -1,6 +1,7 @@
 {
-  "Version": "v2.127.0",
+  "Version": "v2.127.1",
   "VersionList": [
+    "v2.127.1",
     "v2.127.0",
     "v2.126.0",
     "v2.125.2",
@@ -49,12 +50,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2022-03-14T06:10:22Z",
-  "CheckTime": "2022-03-14T06:11Z",
+  "ReleaseTime": "2022-03-14T09:15:24Z",
+  "CheckTime": "2022-03-14T09:16Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "# HLAE 2.127.0 (2022-03-14T05:48Z)\r\n* Included AfxHookSource 1.106.0 (2022-03-14T05:48Z).\r\n\r\n## AfxHookSource 1.106.0 (2022-03-14T05:48Z)\r\n* Added mirv_force_spectatortools 0|1 - \"Enable / Disable allowing spectator tools (e.g. makes spec_show_xray 1 work) and also enables scoreboard and drawoverviewmap in POV demos (most useful in fake mirv_pov POV demos)."
+  "ReleaseNote": "# HLAE 2.127.1 (2022-03-14T09:03Z)\r\n* Included AfxHookSource 1.106.1 (2022-03-14T09:03Z).\r\n\r\n## AfxHookSource 1.106.1 (2022-03-14T09:03Z)\r\n* For mirv_force_spectatortools 1 (should be enabled before loading demo), the drawmapoview CS:GO command will now also display enemies; The old behaviour can be restored with mirv_cfg mirvForceSpectatorToolsMapOverviewShowAll 0, however toggling this during the demo can have unwanted side effects (untested).\r\n* Fixed bug introduced in last version in mirv_deathmsg."
 }
