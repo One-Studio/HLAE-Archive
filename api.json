@@ -1,6 +1,7 @@
 {
-  "Version": "v2.127.1",
+  "Version": "v2.127.2",
   "VersionList": [
+    "v2.127.2",
     "v2.127.1",
     "v2.127.0",
     "v2.126.0",
@@ -50,12 +51,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2022-03-14T09:15:24Z",
-  "CheckTime": "2022-03-14T09:16Z",
+  "ReleaseTime": "2022-04-12T21:03:12Z",
+  "CheckTime": "2022-04-13T06:27Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "# HLAE 2.127.1 (2022-03-14T09:03Z)\r\n* Included AfxHookSource 1.106.1 (2022-03-14T09:03Z).\r\n\r\n## AfxHookSource 1.106.1 (2022-03-14T09:03Z)\r\n* For mirv_force_spectatortools 1 (should be enabled before loading demo), the drawmapoview CS:GO command will now also display enemies; The old behaviour can be restored with mirv_cfg mirvForceSpectatorToolsMapOverviewShowAll 0, however toggling this during the demo can have unwanted side effects (untested).\r\n* Fixed bug introduced in last version in mirv_deathmsg."
+  "ReleaseNote": "- Updated build and HLAE_Setup.exe to .NET 4.6.2."
 }
