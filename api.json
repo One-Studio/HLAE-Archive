@@ -1,6 +1,7 @@
 {
-  "Version": "v2.127.2",
+  "Version": "v2.128.1",
   "VersionList": [
+    "v2.128.1",
     "v2.127.2",
     "v2.127.1",
     "v2.127.0",
@@ -51,12 +52,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2022-04-12T21:03:12Z",
-  "CheckTime": "2022-04-13T06:27Z",
+  "ReleaseTime": "2022-04-15T13:51:34Z",
+  "CheckTime": "2022-04-15T13:52Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Updated build and HLAE_Setup.exe to .NET 4.6.2."
+  "ReleaseNote": "- Included AfxHookSource 1.107.0 (2022-04-15T13:44Z).\r\n\r\n## AfxHookSource 1.107.0 (2022-04-15T13:44Z)\r\n- Updated AGR to v6 for CS:GO, TF2, CSSv34.\r\n- Added AGR v6 support to official Steam CSS."
 }
