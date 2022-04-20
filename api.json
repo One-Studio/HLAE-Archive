@@ -1,6 +1,7 @@
 {
-  "Version": "v2.128.2",
+  "Version": "v2.128.3",
   "VersionList": [
+    "v2.128.3",
     "v2.128.2",
     "v2.128.1",
     "v2.127.2",
@@ -53,12 +54,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2022-04-17T18:29:15Z",
-  "CheckTime": "2022-04-17T18:30Z",
+  "ReleaseTime": "2022-04-20T14:56:07Z",
+  "CheckTime": "2022-04-20T14:56Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource 1.107.1 (2022-04-17T18:16Z).\r\n\r\n## AfxHookSource 1.107.1 (2022-04-17T18:16Z)\r\n- Fixed CS:GO AGR v6 not working properly when neither player camera nor view model recording was enabled."
+  "ReleaseNote": "- Included AfxHookSource 1.107.2 (2022-04-20T14:42Z).\r\n\r\n## AfxHookSource 1.107.2 (2022-04-20T14:42Z)\r\n- Fixed visibility flag for CSS and CSSv34 AGR v6, thanks @filiperino."
 }
