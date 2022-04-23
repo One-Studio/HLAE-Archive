@@ -1,6 +1,7 @@
 {
-  "Version": "v2.128.3",
+  "Version": "v2.130.2",
   "VersionList": [
+    "v2.130.2",
     "v2.128.3",
     "v2.128.2",
     "v2.128.1",
@@ -54,12 +55,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2022-04-20T14:56:07Z",
-  "CheckTime": "2022-04-20T14:56Z",
+  "ReleaseTime": "2022-04-23T16:46:15Z",
+  "CheckTime": "2022-04-23T16:47Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource 1.107.2 (2022-04-20T14:42Z).\r\n\r\n## AfxHookSource 1.107.2 (2022-04-20T14:42Z)\r\n- Fixed visibility flag for CSS and CSSv34 AGR v6, thanks @filiperino."
+  "ReleaseNote": "# HLAE 2.130.2 (2022-04-23T16:30Z)\r\n- Included AfxHookSource 1.109.2 (2022-04-23T16:30Z).\r\n\r\nSince apart from minor typo fixes this release is functionally the same as the last one, people on 2.130.1 won't be notified of the update.\r\n\r\n## AfxHookSource 1.109.2 (2022-04-23T16:30Z)\r\n- Fixed some minor typos, apart from that same as last release (thanks Dec).\r\n\r\n----\r\n\r\n# HLAE 2.130.1 (2022-04-21T18:40Z)\r\n- Included AfxHookSource 1.109.1 (2022-04-21T18:40Z).\r\n\r\n## AfxHookSource 1.109.1 (2022-04-21T18:40Z)\r\n- Vastly improved the HLAE mirv_streams entity detection capabilities. This is also reflected in the updated afx/wh.cfg, since it now no more needs wonky tampering with disabling fastpath.\r\n\r\nIMPORTANT: Do not forget to update your own configs (e.g. wh related cfgs) that might still use wonky fastpath related settings, this is not required anymore for improved entity detection.  \r\nYou should REMOVE any of these from your configs: cl_modelfastpath 0; cl_tlucfastpath 0; cl_brushfastpath 0 "
 }
