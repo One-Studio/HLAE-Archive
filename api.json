@@ -1,6 +1,7 @@
 {
-  "Version": "v2.130.5",
+  "Version": "v2.131.0",
   "VersionList": [
+    "v2.131.0",
     "v2.130.5",
     "v2.130.4",
     "v2.130.3",
@@ -58,12 +59,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2022-05-16T04:15:43Z",
-  "CheckTime": "2022-05-16T04:16Z",
+  "ReleaseTime": "2022-06-10T15:59:05Z",
+  "CheckTime": "2022-06-10T15:59Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource 1.109.5 (2022-05-16T04:00Z).\r\n\r\n## AfxHookSource 1.109.5 (2022-05-16T04:00Z)\r\n- Adjusted to CS:GO 5/15/2022 update."
+  "ReleaseNote": "- Included AfxHookSource 1.110.0 (2022-06-10T14:41Z).\r\n\r\n## AfxHookSource 1.110.0 (2022-06-10T14:41Z)\r\n- Added reshade option on baseFx based mirv_streams for connecting HLAE to the ReShade_advancedfx.addon. This addon for ReShade will be [released in a separate repository](https://github.com/advancedfx/ReShade_advancedfx)."
 }
