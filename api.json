@@ -1,6 +1,7 @@
 {
-  "Version": "v2.131.0",
+  "Version": "v2.131.1",
   "VersionList": [
+    "v2.131.1",
     "v2.131.0",
     "v2.130.5",
     "v2.130.4",
@@ -59,12 +60,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2022-06-10T15:59:05Z",
-  "CheckTime": "2022-06-10T15:59Z",
+  "ReleaseTime": "2022-06-12T13:49:39Z",
+  "CheckTime": "2022-06-12T13:50Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource 1.110.0 (2022-06-10T14:41Z).\r\n\r\n## AfxHookSource 1.110.0 (2022-06-10T14:41Z)\r\n- Added reshade option on baseFx based mirv_streams for connecting HLAE to the ReShade_advancedfx.addon. This addon for ReShade will be [released in a separate repository](https://github.com/advancedfx/ReShade_advancedfx)."
+  "ReleaseNote": "- Included AfxHookSource 1.110.1 (2022-06-12T13:05Z).\r\n\r\n## AfxHookSource 1.110.1 (2022-06-12T13:05Z)\r\n- Fixed mirv_streams depth streams being broken by last update."
 }
