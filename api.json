@@ -1,6 +1,7 @@
 {
-  "Version": "v2.132.0",
+  "Version": "v2.132.1",
   "VersionList": [
+    "v2.132.1",
     "v2.132.0",
     "v2.131.3",
     "v2.131.2",
@@ -63,12 +64,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2022-06-26T00:39:51Z",
-  "CheckTime": "2022-06-26T00:40Z",
+  "ReleaseTime": "2022-07-06T13:30:14Z",
+  "CheckTime": "2022-07-06T13:31Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource 1.111.0 (2022-06-26T00:19Z).\r\n\r\n## AfxHookSource 1.111.0 (2022-06-26T00:19Z)\r\n- Fixed multiple bugs in mirv_pgl.\r\n- Fixed a bug with game events cache for server_spawn (id 0) CS:GO event in mirv_pgl and afx_interop, that could cause state errors / freezes / exceptions in afx_interop or in mirv_pgl when useCache is 1 when the event would appear a second time and wrongly encoded as cached (id 0 can not be cached and will not be cached anymore due to a protocol design flaw on my end (id 0 indicates uncached transmission, so it can not be told part from real id 0, so that one is always uncached now)).\r\n\r\nThe changes to mirv_pgl and afx_interop should be backwards compatible and have no negative side effects, testing is advised nevertheless.\r\n\r\nPlease note that CS:GO has a crash bug in the current latest release, that can be triggered upon level changed, especially when changing levels quickly and doing a lot of console toggling / keyboard input with F11 upon level loading. This is not an HLAE bug, it happens without HLAE as well. "
+  "ReleaseNote": "- Included AfxHookSource 1.111.1 (2022-07-07T13:37Z).\r\n- Included AfxHookGoldSrc 2.13.4 (2022-07-07T13:37Z).\r\n\r\n## AfxHookSource 1.111.1 (2022-07-07T13:37Z)\r\n- Fixed crash / breaks of mirv_campath draw upon opening video settings in CS:GO.\r\n\r\n## AfxHookGoldSrc 2.13.4 (2022-07-07T13:37Z)\r\n- Fixed AGR export visiblity marking issues."
 }
