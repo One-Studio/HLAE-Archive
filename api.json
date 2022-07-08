@@ -1,6 +1,7 @@
 {
-  "Version": "v2.132.2",
+  "Version": "v2.132.3",
   "VersionList": [
+    "v2.132.3",
     "v2.132.2",
     "v2.132.1",
     "v2.132.0",
@@ -65,12 +66,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2022-07-06T19:49:05Z",
-  "CheckTime": "2022-07-06T19:49Z",
+  "ReleaseTime": "2022-07-08T07:14:33Z",
+  "CheckTime": "2022-07-08T07:15Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookGoldSrc 2.13.5 (2022-07-06T19:33Z).\r\n\r\n## AfxHookGoldSrc 2.13.5 (2022-07-06T19:33Z)\r\n- Fixed AGR export visiblity marking issues, thanks to @instincthns."
+  "ReleaseNote": "- Included AfxHookSource 1.111.2 (2022-07-08T07:00Z).\r\n\r\n## AfxHookSource 1.111.2 (2022-07-08T07:00Z)\r\n- Fixed crash when previewing / recording mirv_streams / doing multiple renderpasses when mat_queue_mode would switch from 0 to an other value"
 }
