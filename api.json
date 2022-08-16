@@ -1,6 +1,7 @@
 {
-  "Version": "v2.135.0",
+  "Version": "v2.136.0",
   "VersionList": [
+    "v2.136.0",
     "v2.135.0",
     "v2.134.1",
     "v2.134.0",
@@ -71,12 +72,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2022-08-12T10:19:20Z",
-  "CheckTime": "2022-08-12T10:20Z",
+  "ReleaseTime": "2022-08-16T09:46:43Z",
+  "CheckTime": "2022-08-16T09:47Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookGoldSrc 2.15.0 (2022-08-12T09:21).\r\n\r\n## AfxHookGoldSrc 2.15.0 (2022-08-12T09:21Z)\r\n* Added mirv_fov handleZoom, mirv_fov minUnzoomedFov by @mallgrab.\r\n"
+  "ReleaseNote": "* Included AfxHookGoldSrc 2.16.0 (2022-08-16T08:37Z).\r\n\r\n## AfxHookGoldSrc 2.16.0 (2022-08-16T08:37Z)\r\n*  Add cvar mirv_cstrike_spectator_fix, unstucks the camera when colliding into the ground by @mallgrab."
 }
