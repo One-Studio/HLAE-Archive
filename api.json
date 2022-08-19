@@ -1,6 +1,7 @@
 {
-  "Version": "v2.136.0",
+  "Version": "v2.137.2",
   "VersionList": [
+    "v2.137.2",
     "v2.136.0",
     "v2.135.0",
     "v2.134.1",
@@ -72,12 +73,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2022-08-16T09:46:43Z",
-  "CheckTime": "2022-08-16T09:47Z",
+  "ReleaseTime": "2022-08-19T16:27:49Z",
+  "CheckTime": "2022-08-19T16:28Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "* Included AfxHookGoldSrc 2.16.0 (2022-08-16T08:37Z).\r\n\r\n## AfxHookGoldSrc 2.16.0 (2022-08-16T08:37Z)\r\n*  Add cvar mirv_cstrike_spectator_fix, unstucks the camera when colliding into the ground by @mallgrab."
+  "ReleaseNote": "* Included AfxHookSource 2.113.2 (2022-08-19T16:00Z).\r\n\r\n## AfxHookSource 1.113.2 (2022-08-19T16:00Z)\r\n* Fixed mirv_cals handle add ownerEntity being inaccessible.\r\n* Fixed mirv_cals handle add or."
 }
