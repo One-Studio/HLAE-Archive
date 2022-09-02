@@ -1,6 +1,7 @@
 {
-  "Version": "v2.137.2",
+  "Version": "v2.137.3",
   "VersionList": [
+    "v2.137.3",
     "v2.137.2",
     "v2.136.0",
     "v2.135.0",
@@ -73,12 +74,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2022-08-19T16:27:49Z",
-  "CheckTime": "2022-08-19T16:28Z",
+  "ReleaseTime": "2022-09-02T19:52:59Z",
+  "CheckTime": "2022-09-02T19:53Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "* Included AfxHookSource 2.113.2 (2022-08-19T16:00Z).\r\n\r\n## AfxHookSource 1.113.2 (2022-08-19T16:00Z)\r\n* Fixed mirv_cals handle add ownerEntity being inaccessible.\r\n* Fixed mirv_cals handle add or."
+  "ReleaseNote": "HLAE 2.137.3 (2022-09-02T19:39Z)\r\n- Included AfxHookGoldSrc 2.16.1 (2022-09-02T19:39Z).\r\n\r\n## AfxHookGoldSrc 2.16.1 (2022-09-02T19:39Z)\r\n- Fixed mirv_voice_block command."
 }
