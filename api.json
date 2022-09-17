@@ -1,6 +1,7 @@
 {
-  "Version": "v2.138.1",
+  "Version": "v2.138.2",
   "VersionList": [
+    "v2.138.2",
     "v2.138.1",
     "v2.137.3",
     "v2.137.2",
@@ -75,12 +76,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2022-09-17T09:16:43Z",
-  "CheckTime": "2022-09-17T09:17Z",
+  "ReleaseTime": "2022-09-17T15:47:33Z",
+  "CheckTime": "2022-09-17T15:48Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource 2.114.0 (2022-09-17T08:57Z).\r\n\r\n## AfxHookSource 1.114.0 (2022-09-17T08:57Z)\r\n* Added mirv_cfg forceViewOverrideHltv. Set to 1 and use spec_mode 6 in order to make HLTVCamera follow HLAE campaths / camera overrides. Roll is ignored by HLTVCamera. This feature might be useful for live observers but is off by default, since it would disturb some movie maker's work flow."
+  "ReleaseNote": "* Included AfxHookSource 2.114.1 (2022-09-17T15:34Z).\r\n\r\n## AfxHookSource 1.114.1 (2022-09-17T15:34Z)\r\n* Fixed crash introduced in 1.114.0 when using mirv_cfg command without parameters to print help."
 }
