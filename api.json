@@ -1,6 +1,7 @@
 {
-  "Version": "v2.140.0",
+  "Version": "v2.141.0",
   "VersionList": [
+    "v2.141.0",
     "v2.140.0",
     "v2.139.2",
     "v2.138.2",
@@ -78,12 +79,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2022-10-07T18:48:57Z",
-  "CheckTime": "2022-10-07T18:49Z",
+  "ReleaseTime": "2022-10-22T14:17:40Z",
+  "CheckTime": "2022-10-22T14:18Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookGoldSrc 2.17.0 (2022-10-07T18:28Z).\r\n\r\n## AfxHookGoldSrc 2.17.0 (2022-10-07T18:28Z)\r\n* Added #798 cstrike viewmodel animations to hltv demos by @mallgrab. See mirv_cstrike_hltv_animation_fix command for more information.\r\n* Added mirv_cstrike_force_knife_righthand 0|1 cvar by @mallgrab."
+  "ReleaseNote": "- Included AfxHookSource 1.116.0 (2022-10-22T14:01Z).\r\n\r\n## AfxHookSource 1.116.0 (2022-10-22T14:01Z)\r\n- Adjusted to latest CS:GO update."
 }
