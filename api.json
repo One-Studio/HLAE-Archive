@@ -1,6 +1,7 @@
 {
-  "Version": "v2.141.2",
+  "Version": "v2.142.1",
   "VersionList": [
+    "v2.142.1",
     "v2.141.2",
     "v2.141.1",
     "v2.141.0",
@@ -81,12 +82,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2022-10-26T16:44:30Z",
-  "CheckTime": "2022-10-26T16:45Z",
+  "ReleaseTime": "2022-12-06T16:44:51Z",
+  "CheckTime": "2022-12-06T16:45Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource 1.116.2 (2022-10-26T16:28Z).\r\n\r\n## AfxHookSource 1.116.2 (2022-10-26T16:28Z)\r\n- Fixed default mirv_streams depth recordings having broken skybox depth."
+  "ReleaseNote": "- Included AfxHookSource 1.117.1 (2022-12-06T16:12Z).\r\n- Included AfxHookSource 2.17.1 (2022-12-06T16:12Z).\r\n- Updated FFMPEG build used in installer.\r\n\r\n## AfxHookSource 1.117.1 (2022-12-05T10:18Z)\r\n- Fixed dead-lock if FFMPEG writes to stderr and exits (advancedfx/advancedfx#809).\r\n- Optional improvements to [collisionClip mirv_calc](https://github.com/advancedfx/advancedfx/wiki/Example%3A-mirv_calcs%3A-Collision-clipping-a-camera-against-against-level-other-content) (advancedfx/advancedfx#804).\r\n- Added mirv_spec_player_key (advancedfx/advancedfx#815).\r\n\r\n## AfxHookGoldSrc 2.17.1 (2022-12-06T16:12Z)\r\n- Fixed dead-lock if FFMPEG writes to stderr and exits (advancedfx/advancedfx#809).\r\n- Fixed GoldSrc black bars when using 800x450 (cstrike) (advancedfx/advancedfx#808)."
 }
