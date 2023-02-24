@@ -1,6 +1,7 @@
 {
-  "Version": "v2.144.3",
+  "Version": "v2.144.4",
   "VersionList": [
+    "v2.144.4",
     "v2.144.3",
     "v2.142.1",
     "v2.141.2",
@@ -83,12 +84,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2023-02-20T15:59:06Z",
-  "CheckTime": "2023-02-20T15:59Z",
+  "ReleaseTime": "2023-02-24T14:40:20Z",
+  "CheckTime": "2023-02-24T14:41Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource 1.119.3 (2023-02-20T15:32Z).\r\n\r\n## AfxHookSource 1.119.3 (2023-02-20T15:32Z)\r\n- Fixed mirv_streams with FFMPEG can crash CS:GO when there's problems / errors (advancedfx/advancedfx#826)."
+  "ReleaseNote": "- Included AfxHookSource 1.119.4 (2023-02-24T14:28Z).\r\n\r\n## AfxHookSource 1.119.4 (2023-02-24T14:28Z)\r\n- Fixed mirv_streams settings reference count not being initialized. Thanks runie and AnthonyP."
 }
