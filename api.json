@@ -1,6 +1,7 @@
 {
-  "Version": "v2.144.4",
+  "Version": "v2.145.0",
   "VersionList": [
+    "v2.145.0",
     "v2.144.4",
     "v2.144.3",
     "v2.142.1",
@@ -84,12 +85,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2023-02-24T14:40:20Z",
-  "CheckTime": "2023-02-24T14:41Z",
+  "ReleaseTime": "2023-03-10T12:22:52Z",
+  "CheckTime": "2023-03-10T12:23Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource 1.119.4 (2023-02-24T14:28Z).\r\n\r\n## AfxHookSource 1.119.4 (2023-02-24T14:28Z)\r\n- Fixed mirv_streams settings reference count not being initialized. Thanks runie and AnthonyP."
+  "ReleaseNote": "* Included AfxHookSource 1.120.0 (2023-03-10T12:00Z).\r\n* Updated translations(thanks yovaN).\r\n\r\n## AfxHookSource 1.120.0 (2023-03-10T12:00Z)\r\n* Fixed multiple mirv_cmd curve interp bugs (advancedfx/advancedfx#832).\r\n* Added fix for Panorama UI HUD speed / timings when host_framerate not 0 (e.g. recording) or otherwise when demo_timescale is not 1 (advancedfx/advancedfx#834)."
 }
