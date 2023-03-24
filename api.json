@@ -1,6 +1,7 @@
 {
-  "Version": "v2.145.0",
+  "Version": "v2.145.1",
   "VersionList": [
+    "v2.145.1",
     "v2.145.0",
     "v2.144.4",
     "v2.144.3",
@@ -85,12 +86,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2023-03-10T12:22:52Z",
-  "CheckTime": "2023-03-10T12:23Z",
+  "ReleaseTime": "2023-03-24T15:42:18Z",
+  "CheckTime": "2023-03-24T15:43Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "* Included AfxHookSource 1.120.0 (2023-03-10T12:00Z).\r\n* Updated translations(thanks yovaN).\r\n\r\n## AfxHookSource 1.120.0 (2023-03-10T12:00Z)\r\n* Fixed multiple mirv_cmd curve interp bugs (advancedfx/advancedfx#832).\r\n* Added fix for Panorama UI HUD speed / timings when host_framerate not 0 (e.g. recording) or otherwise when demo_timescale is not 1 (advancedfx/advancedfx#834)."
+  "ReleaseNote": "- Included AfxHookSource 1.120.1 (2023-03-24T15:20Z).\r\n\r\n## AfxHookSource 1.120.1 (2023-03-24T15:20Z)\r\n- Fixed mirv_pov doesn't automatically use the correct rates for GOTV demos (advancedfx/advancedfx#835).\r\n- Fixed possible mirv_agr crash e.g. in TF2 when weapons are carried (advancedfx/advancedfx#837).\r\n- Added more stuff to mirv_agr in TF2."
 }
