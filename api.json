@@ -1,6 +1,7 @@
 {
-  "Version": "v2.145.4",
+  "Version": "v2.145.5",
   "VersionList": [
+    "v2.145.5",
     "v2.145.4",
     "v2.145.3",
     "v2.145.2",
@@ -89,12 +90,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2023-04-04T08:43:23Z",
-  "CheckTime": "2023-04-04T08:44Z",
+  "ReleaseTime": "2023-04-30T17:32:47Z",
+  "CheckTime": "2023-04-30T17:33Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource 1.120.4 (2023-04-04T08:31Z).\r\n\r\n## AfxHookSource 1.120.4 (2023-04-04T08:31Z)\r\n- Fixed mirv_agr inverting matrices for bone matrices that won't be actually exported in the end, leading to console spam upon problems in e.g. CS:GO."
+  "ReleaseNote": "- Included AfxHookGoldSrc 2.18.3 (2023-04-30Z17:12Z).\r\n- Updated installer FFMPEG version to 6.0 of https://github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2023-04-30-12-46.\r\n\r\n## AfxHookGoldSrc 2.18.3 (2023-04-30Z17:12Z)\r\n- Fixed advancedfx/advancedfx#842 GoldSrc FFMPEG videos flipped since AfxHookGoldSrc 2.18.2."
 }
