@@ -1,6 +1,7 @@
 {
-  "Version": "v2.145.6",
+  "Version": "v2.146.0",
   "VersionList": [
+    "v2.146.0",
     "v2.145.6",
     "v2.145.5",
     "v2.145.4",
@@ -91,12 +92,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2023-05-02T20:33:54Z",
-  "CheckTime": "2023-05-02T20:34Z",
+  "ReleaseTime": "2023-06-17T12:15:51Z",
+  "CheckTime": "2023-06-17T12:16Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "* Included AfxHookSource 1.120.5 (2023-05-02Z20:10Z).\r\n\r\n## AfxHookSource 1.120.5 (2023-05-02Z20:10Z)\r\n* Fixed a long standing race condition that would lead to a double free upon release that was copied and pasted in multiple places. Thanks to Flakura YT#2574 in our Discord channel. Updating is recommended."
+  "ReleaseNote": "-Included AfxHookSource 1.121.0 (2023-06-17T11:38Z).\r\n- Fixed default FFMPEG download URL in installer (usually not used).\r\n\r\n## AfxHookSource 1.121.0 (2023-06-17T11:38Z)\r\n- Mr. Dec fixed various typos in various user facing mirv_ command interfaces, thank you.\r\n- Update mirv_streams to cleanly finish the recording upon closing of the game (advancedfx/advancedfx#847).\r\n- Added support for screen capturing in a few mods other than CS:GO (e.g. TF2) (advancedfx/advancedfx#836).  \r\nBecause no new hooks were introduced for it, the capturing process will force mat_queue_mode 0 in games other than CS:GO and will only record when the console is closed (just like startmovie) and additionally to the host_framerate you will need to set mirv_streams record fps to the same value.  \r\nExample:  \r\n```\r\nhost_framerate 1200; mirv_streams record fps 1200; mirv_streams record screen enabled 1; mirv_streams record screen settings afxFfmpegYuv420p; mirv_streams record start\r\n// ... close console to record a bit ...\r\nmirv_streams record end\r\n```  \r\n- Fix crash in GetSpectatorPlayerForKey when not in-game: Affects mirv_calcs handle add key, mirv_spec_player_key."
 }
