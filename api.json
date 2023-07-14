@@ -1,6 +1,7 @@
 {
-  "Version": "v2.146.0",
+  "Version": "v2.146.1",
   "VersionList": [
+    "v2.146.1",
     "v2.146.0",
     "v2.145.6",
     "v2.145.5",
@@ -92,12 +93,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2023-06-17T12:15:51Z",
-  "CheckTime": "2023-06-17T12:16Z",
+  "ReleaseTime": "2023-07-14T19:14:04Z",
+  "CheckTime": "2023-07-14T19:14Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "-Included AfxHookSource 1.121.0 (2023-06-17T11:38Z).\r\n- Fixed default FFMPEG download URL in installer (usually not used).\r\n\r\n## AfxHookSource 1.121.0 (2023-06-17T11:38Z)\r\n- Mr. Dec fixed various typos in various user facing mirv_ command interfaces, thank you.\r\n- Update mirv_streams to cleanly finish the recording upon closing of the game (advancedfx/advancedfx#847).\r\n- Added support for screen capturing in a few mods other than CS:GO (e.g. TF2) (advancedfx/advancedfx#836).  \r\nBecause no new hooks were introduced for it, the capturing process will force mat_queue_mode 0 in games other than CS:GO and will only record when the console is closed (just like startmovie) and additionally to the host_framerate you will need to set mirv_streams record fps to the same value.  \r\nExample:  \r\n```\r\nhost_framerate 1200; mirv_streams record fps 1200; mirv_streams record screen enabled 1; mirv_streams record screen settings afxFfmpegYuv420p; mirv_streams record start\r\n// ... close console to record a bit ...\r\nmirv_streams record end\r\n```  \r\n- Fix crash in GetSpectatorPlayerForKey when not in-game: Affects mirv_calcs handle add key, mirv_spec_player_key."
+  "ReleaseNote": "(There have been some changes in the build configuration, the final files now end up in `build\\Release\\dist` for Release builds.)\r\n\r\n* Included AfxHookSource 1.121.0 (2023-07-14T18:50Z).\r\n* Added AfxHookSource2 0.0.1 (2023-07-14T18:50Z).\r\n\r\n## AfxHookSource 1.121.1 (2023-07-14T18:50Z)\r\n* Fixed L4D2 campath draw and some other suppported L4D2 features: #858 - thanks to @Dechno1337 for testing and @RichardHafer\r\n* Some other fixes e.g. by Dec, thank you.\r\n* Updated project to use a CMAKE project instead of VS2017 directly.\r\n\r\n## AfxHookSource2 0.0.1 (2023-07-14T18:50Z)\r\n*  First version. Can not do much, all it currently does is unlock hidden / protected cvars and cmds in CS2 when used with custom loader:  \r\n ProgramPath: `C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Global Offensive\\game\\bin\\win64\\cs2.exe`  \r\n CommandLine: `-steam -insecure +sv_lan 1 -console -novid -window -w 1920 -h 1080`  \r\n DLLs to inject: `hlae-folder\\x64\\AfxHookSource2.dll`   "
 }
