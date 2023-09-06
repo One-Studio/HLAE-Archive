@@ -1,6 +1,7 @@
 {
-  "Version": "v2.148.1",
+  "Version": "v2.148.2",
   "VersionList": [
+    "v2.148.2",
     "v2.148.1",
     "v2.148.0",
     "v2.147.0",
@@ -97,12 +98,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2023-09-01T18:21:19Z",
-  "CheckTime": "2023-09-01T18:21Z",
+  "ReleaseTime": "2023-09-06T19:15:38Z",
+  "CheckTime": "2023-09-06T19:16Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource2 0.2.1 (2023-09-01T18:13Z).\r\n\r\n## AfxHookSource2 0.2.1 (2023-09-01T18:13Z)\r\n-  Adjusted to CS2 update. "
+  "ReleaseNote": "- Included AfxHookSource2 0.2.2 (2023-09-06T19:00Z).\r\n\r\n## AfxHookSource2 0.2.2 (2023-09-06T19:00Z)\r\n-  Fixed mirv_campath using real time instead of game time. \r\n-  Updated mirv_campath to recognize demo time and tick."
 }
