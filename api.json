@@ -1,6 +1,7 @@
 {
-  "Version": "v2.148.6",
+  "Version": "v2.149.0.1",
   "VersionList": [
+    "v2.149.0.1",
     "v2.148.6",
     "v2.148.5",
     "v2.148.4",
@@ -102,12 +103,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2023-09-29T10:32:29Z",
-  "CheckTime": "2023-09-29T10:33Z",
+  "ReleaseTime": "2023-10-02T05:13:22Z",
+  "CheckTime": "2023-10-02T05:14Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource2 0.4.1 (2023-09-29T10:14Z).\r\n- Included AfxHookSource 1.121.6 (2023-09-29T10:14Z).\r\n\r\n## AfxHookSource2 0.4.1 (2023-09-29T10:14Z)\r\n- Fixed mirv_cmd, mirv_campath ticks / demo time being broken / wrong. \r\n- Updated mirv_cmd to support sub-tick in CS2 too.\r\n\r\n## AfxHookSource 1.121.6 (2023-09-29T10:14Z)\r\n- Fixed crashes when using mirv_cmd e.g. with playdemo introduced in HLAE 2.148.4 (2023-09-24T14:39Z)."
+  "ReleaseNote": "- Included AfxHookSource2 0.5.0 (2023-10-02T04:54Z).\r\n- Included AfxHookSource 1.121.7 (2023-10-02T04:54Z).\r\n\r\n## AfxHookSource2 0.5.0 (2023-10-02T04:54Z)\r\n- Added mirv_skip (thanks @ficcialfaint).\r\n\r\n## AfxHookSource 1.121.7 (2023-10-02T04:54Z)\r\n- Removed mat_qeueue_mode 0 forcing from mirv_campath draw enabeld 1 (not required anymore since a few versions).\r\n- Shared mirv_skip with AfxHookSource2 (thanks @ficcialfaint)."
 }
