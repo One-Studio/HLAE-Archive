@@ -1,6 +1,7 @@
 {
-  "Version": "v2.150.0",
+  "Version": "v2.151.0",
   "VersionList": [
+    "v2.151.0",
     "v2.150.0",
     "v2.149.2",
     "v2.149.1.1",
@@ -106,12 +107,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2023-10-08T17:41:29Z",
-  "CheckTime": "2023-10-08T17:42Z",
+  "ReleaseTime": "2023-10-18T08:06:12Z",
+  "CheckTime": "2023-10-18T08:06Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource2 0.6.0 (2023-10-08T16:44Z).\r\n- Included AfxHookSource 1.122.0 (2023-10-08T16:44Z).\r\n\r\n##AfxHookSource2 0.6.0 (2023-10-08T16:44Z)\r\n- Added mirv_input cfg smooth.\r\n\r\n## AfxHookSource 1.122.0 (2023-10-08T16:44Z)\r\n- Added mirv_input cfg smooth.\r\n\r\n- Added mirv_input cfg smooth.\r\n\r\n```\r\n// Example for mirv_input smooth:\r\n// For key assignment see: https://github.com/advancedfx/advancedfx/wiki/Source%3Amirv_input#mirv_input-camera (New mouse buttons (left / right) + mousemove and mousewheel are not documented there yet.)\r\n\r\nmirv_input cfg ksens 1\r\nmirv_input cfg msens 0.05\r\n\r\nmirv_input cfg smooth halfTime 0.5 // sets all half life time for vec (position), and (rotation), fov (field of view) to same value in seconds.\r\n\r\n// Uncomment to set independently:\r\n//mirv_input cfg smooth halfTimeVec 0.5\r\n//mirv_input cfg smooth halfTimeAng 0.5 // Tip: Use 0 value to disable smoothing, or use e.g. 0.1 value for lower delay and less smoothing.\r\n//mirv_input cfg smooth halfTimeFov 0.5\r\n\r\n//mirv_input cfg smooth rotShortestPath 0 // Uncomment / try this on 0 when bored, default 1 is cooler, but already snaps at 180°.\r\n\r\nalias \"afx_smooth_on\" \"mirv_input cfg smooth enabled 1; mirv_input cfg offsetMode ownLast; mirv_input cfg mouseMoveSupport 1; mirv_input camera\"\r\nalias \"afx_smooth_off\" \"mirv_input end; mirv_input cfg offsetMode last; mirv_input cfg mouseMoveSupport 0; mirv_input cfg smooth enabled 0\"\r\n\r\nafx_smooth_on\r\n\r\necho \"enter afx_smooth_off to turn smooth off\"\r\n ```"
+  "ReleaseNote": "* Included AfxHookGoldSrc 2.19.0 (2023-10-08T06:44Z).\r\n* Included AfxHookSource 1.122.1 (2023-10-08T06:44Z).\r\n* Included AfxHookSource2 0.6.1 (2023-10-18T06:47Z).\r\n\r\n## AfxHookGoldSrc 2.19.0 (2023-10-18T06:47Z)\r\n* AfxHookSource 1.122.1 (2023-10-18T06:47Z)\r\n* Fixed mirv_input cfg smooth start position.\r\n* Removed commans in mirv_campath print to make copy and paste easier.\r\n\r\n## AfxHookSource2 0.6.1 (2023-10-18T06:47Z)\r\n* Fixed mirv_input cfg smooth start position.\r\n* Removed commas in mirv_campath print to make copy and paste easier.\r\n* Renamed DLL back from AfxHookSource2_IF_YOU_USE_THIS_TO_JOIN_GOTV_OR_VAC_SERVERS_YOU_WILL_GET_VAC_BANNED.dll to AfxHookSource2.dll, since Valve seems to have addressed the issue.\r\n\r\n📢❗❗❗ **While we believe that Valve addressed the issue of -insecure not working in some circumstances, we are not sure,\r\n so please make sure to not connect to live GOTV servers or game servers in order to avoid a VAC ban! Watching demos is fine.**"
 }
