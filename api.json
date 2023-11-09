@@ -1,6 +1,7 @@
 {
-  "Version": "v2.151.0",
+  "Version": "v2.151.1",
   "VersionList": [
+    "v2.151.1",
     "v2.151.0",
     "v2.150.0",
     "v2.149.2",
@@ -107,12 +108,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2023-10-18T08:06:12Z",
-  "CheckTime": "2023-10-18T08:06Z",
+  "ReleaseTime": "2023-11-09T14:11:18Z",
+  "CheckTime": "2023-11-09T14:11Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "* Included AfxHookGoldSrc 2.19.0 (2023-10-08T06:44Z).\r\n* Included AfxHookSource 1.122.1 (2023-10-08T06:44Z).\r\n* Included AfxHookSource2 0.6.1 (2023-10-18T06:47Z).\r\n\r\n## AfxHookGoldSrc 2.19.0 (2023-10-18T06:47Z)\r\n* AfxHookSource 1.122.1 (2023-10-18T06:47Z)\r\n* Fixed mirv_input cfg smooth start position.\r\n* Removed commans in mirv_campath print to make copy and paste easier.\r\n\r\n## AfxHookSource2 0.6.1 (2023-10-18T06:47Z)\r\n* Fixed mirv_input cfg smooth start position.\r\n* Removed commas in mirv_campath print to make copy and paste easier.\r\n* Renamed DLL back from AfxHookSource2_IF_YOU_USE_THIS_TO_JOIN_GOTV_OR_VAC_SERVERS_YOU_WILL_GET_VAC_BANNED.dll to AfxHookSource2.dll, since Valve seems to have addressed the issue.\r\n\r\n📢❗❗❗ **While we believe that Valve addressed the issue of -insecure not working in some circumstances, we are not sure,\r\n so please make sure to not connect to live GOTV servers or game servers in order to avoid a VAC ban! Watching demos is fine.**"
+  "ReleaseNote": "- Included AfxHookSource2 0.6.2 (2023-09-11T13:46Z).\r\n\r\nAdded CI (build) pipeline on GitHub, thanks to https://github.com/ficcialfaint\r\n\r\n## AfxHookSource2 0.6.2 (2023-09-11T13:46Z)\r\n- Adjusted to latest CS2 update.\r\n\r\n📢❗❗❗ While we believe that Valve addressed the issue of -insecure not working in CS2 in some circumstances, we are not sure, so please make sure to not connect to live CSTV servers or game servers in order to avoid a VAC ban! Watching demos is fine.\r\n\r\n"
 }
