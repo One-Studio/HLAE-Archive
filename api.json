@@ -1,6 +1,7 @@
 {
-  "Version": "v2.153.0",
+  "Version": "v2.153.1",
   "VersionList": [
+    "v2.153.1",
     "v2.153.0",
     "v2.152.2",
     "v2.151.3",
@@ -112,12 +113,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2024-01-05T15:07:18Z",
-  "CheckTime": "2024-01-05T15:07Z",
+  "ReleaseTime": "2024-01-05T20:05:10Z",
+  "CheckTime": "2024-01-05T20:05Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookGoldSrc 2.20.0 (2023-01-05T13:20Z).\r\n- Included AfxHookSource 1.123.0 (2023-01-05T13:20Z).\r\n- Included AfxHookSource2 0.8.0 (2023-01-05T13:20Z).\r\n- #891 HLAE Installer lately always reinstalls FFMPEG.\r\n\r\n## AfxHookGoldSrc 2.20.0 (2023-01-05T13:20Z)\r\n- Fixed #886 mouse3 mis-configured.\r\n- Added #817 mirv_input local axis movement.\r\n\r\n**Not compatible with 25th aniversary update yet - we are still working on that!**\r\n\r\n## AfxHookSource 1.123.0 (2023-01-05T13:20Z)\r\n- Fixed #886 mouse3 mis-configured.\r\n- Added #817 mirv_input local axis movement.\r\n- Fixed #893 CS2 / CS:GO e.g. mirv_campath load takes a long time.\r\n- Added #897 mirv_streams record screen for L4D2 and HL2MP.\r\n- Fixed #899 mirv_streams: game other than CS:GO still (slowly) capture image (additionally) when recording audio just to throw it away. Thanks to @cademtz for informing us about that issue.\r\n\r\n## AfxHookSource2 0.8.0 (2023-01-05T13:20Z)\r\n- Fixed #886 mouse3 mis-configured.\r\n- Added #817 mirv_input local axis movement.\r\n- Fixed #893 CS2 / CS:GO e.g. mirv_campath load takes a long time."
+  "ReleaseNote": "- Included AfxHookSource 1.123.1 (2024-01-05T19:45Z).\r\n\r\n## AfxHookSource 1.123.1 (2024-01-05T19:45Z)\r\n- Fixed mirv_input camera nor working with m_rawinput 1."
 }
