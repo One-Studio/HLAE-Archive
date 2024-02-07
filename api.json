@@ -1,6 +1,7 @@
 {
-  "Version": "v2.154.0",
+  "Version": "v2.154.1",
   "VersionList": [
+    "v2.154.1",
     "v2.154.0",
     "v2.153.1",
     "v2.153.0",
@@ -114,12 +115,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2024-02-04T09:26:37Z",
-  "CheckTime": "2024-02-04T09:27Z",
+  "ReleaseTime": "2024-02-07T10:10:13Z",
+  "CheckTime": "2024-02-07T10:10Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookGoldSrc 2.21.0 (2024-02-04T09:11Z).\r\n- Fixed some typos, thanks @Dechno1337\r\n\r\n## AfxHookGoldSrc 2.21.0 (2024-02-04T09:11Z)\r\n- Adjusted to **Half-Life 25th anniversary** update. Thanks a lot for extensive testing to @Dechno1337\r\n- Fixed some typos, thanks @Dechno1337"
+  "ReleaseNote": "- Included AfxHookSource2 0.8.1 (2024-02-07T10:00Z).\r\n\r\n## AfxHookSource2 0.8.1 (2024-02-07T10:00Z)\r\n- Fixed #905 CS2 update: mirv_input camera mouse (rawinput) broken.\r\n- Fixed #906 CS2 update: mirv_campath draw broken."
 }
