@@ -1,6 +1,7 @@
 {
-  "Version": "v2.155.1",
+  "Version": "v2.156.0",
   "VersionList": [
+    "v2.156.0",
     "v2.155.1",
     "v2.154.3",
     "v2.154.2",
@@ -118,12 +119,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2024-02-27T20:21:23Z",
-  "CheckTime": "2024-02-27T20:21Z",
+  "ReleaseTime": "2024-03-25T14:40:10Z",
+  "CheckTime": "2024-03-25T14:40Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource2 0.9.1 (2024-02-27T19:57Z).\r\n\r\n## AfxHookSource2 0.9.1 (2024-02-27T19:57Z)\r\n- mirv_streams record now detects the host_framerate or sets it if mirv_streams record fps is set accordingly.\r\n- mirv_streams record now sets engine_no_focus_sleep 0 during recording.\r\n- mirv_streams record now sets r_always_render_all_windows true during recording.\r\n- Tried to fix HLAE crashing e.g. when FACEIT is not disabled; Pleae note, **we strongly recommend to instead disable FACEIT anti cheat** by clicking the tray icon and selecting disable service (newer versions have that option) instead.\r\n\r\nDon't forget: mirv_streams record screen enabled 1 - before recording, otherwise you will only get audio. "
+  "ReleaseNote": "- Included AfxHookSource 1.125.0 (2024-02-25T12:35Z).\r\n- Updated HLAE Installer (HLAE_Setup.exe) to WiX Toolset v3.14.1. Older WiX Toolset versions released have a vulnerability that can be used for privelege escalation by a malicious user on your system: https://wixtoolset.org/news/2024/03/22/wix-security-releases-available/\r\n- Updated installer FFMPEG version to 6.1 of https://github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2024-02-29-13-02\r\n\r\n## AfxHookSource 1.125.0 (2024-02-25T12:35Z)\r\n- Added support for mirv_block_commands in TF2 #898\r\n- Fixed CSS camio doesn't convert game fov #919\r\n- Added support for -afxGame css_v84, see #920 - will probably be removed after Valve fixes ValveSoftware/Source-1-Games#3112 ([CS:S] Demo playback becomes unusable due to \"Goto\" bug)."
 }
