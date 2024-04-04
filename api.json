@@ -1,6 +1,7 @@
 {
-  "Version": "v2.156.1",
+  "Version": "v2.157.0",
   "VersionList": [
+    "v2.157.0",
     "v2.156.1",
     "v2.156.0",
     "v2.155.1",
@@ -120,12 +121,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2024-03-25T17:29:09Z",
-  "CheckTime": "2024-03-25T17:29Z",
+  "ReleaseTime": "2024-04-04T17:22:51Z",
+  "CheckTime": "2024-04-04T17:23Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource 1.125.1 (2024-02-25T17:17Z).\r\n\r\n## AfxHookSource 1.125.1 (2024-02-25T17:17Z)\r\n- Fixed #921 CSSV84 sv_restrict_aspect_ratio_fov 1 is not working correctly with HLAE fov scaling."
+  "ReleaseNote": "* Included AfxHookSource2 0.10.0 (2024-04-04T17:02Z).\r\n\r\n## AfxHookSource2 0.10.0 (2024-04-04T17:02Z)\r\n* Added #926 command line launch option -afxDisableSteamStorage for disabling Steam cloud syncing (useful to be combined with USRLOCALCSGO environment variable).\r\n* Fixed #925 Unicode HLAE print bug in CS2."
 }
