@@ -1,6 +1,7 @@
 {
-  "Version": "v2.158.0",
+  "Version": "v2.159.0",
   "VersionList": [
+    "v2.159.0",
     "v2.158.0",
     "v2.157.0",
     "v2.156.1",
@@ -122,12 +123,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2024-04-22T13:22:05Z",
-  "CheckTime": "2024-04-22T13:22Z",
+  "ReleaseTime": "2024-04-27T18:13:14Z",
+  "CheckTime": "2024-04-27T18:13Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource 1.126.0 (2024-02-22T12:46Z).\r\n\r\n## AfxHookSource 1.126.0 (2024-02-22T12:46Z)\r\n- Adjusted to TF2 update. For now please use the 32bit tf.exe in bin folder with AfxHookSource.dll. Fixes #928 AfxHookSource.dll is no longer loading after tf2 64bit update. Merged #929 Update various signatures for TF2 from Hold on! aka @cademtz (Thank you!).\r\n\r\n---\r\n\r\nHints regarding TF2 update:\r\n\r\n- Use tf.exe in bin folder of TF2 folder now (`-game tf` is not needed anymore), the tf_win64.exe is currently not supported.\r\n- We recommend to enter `engine_no_focus_sleep 0; snd_mute_losefocus 0` _before_ loading a demo if you want to record footage with mirv_streams record screen."
+  "ReleaseNote": "- Included AfxHookSource2 0.11.0 (2024-04-27T16:43Z).\r\n\r\n## AfxHookSource2 0.11.0 (2024-04-27T16:43Z)\r\n- Adjusted to CS2 update: Fixes #932 Camera Swapped when adding new one."
 }
