@@ -1,6 +1,7 @@
 {
-  "Version": "v2.160.0",
+  "Version": "v2.161.0",
   "VersionList": [
+    "v2.161.0",
     "v2.160.0",
     "v2.159.0",
     "v2.158.0",
@@ -124,12 +125,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2024-05-01T09:31:39Z",
-  "CheckTime": "2024-05-01T09:32Z",
+  "ReleaseTime": "2024-05-03T18:17:45Z",
+  "CheckTime": "2024-05-03T18:18Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource2 0.12.0 (2024-05-01T08:19Z).\r\n\r\n## AfxHookSource2 0.12.0 (2024-05-01T08:19Z)\r\n- Adjusted to CS2 update."
+  "ReleaseNote": "- Included AfxHookGoldSrc 2.23.0 (2024-05-03T17:45Z).\r\n- Included AfxHookSource 1.127.0 (2024-05-03T17:45Z).\r\n- Included AfxHookSource2 0.13.0 (2024-05-03T17:45Z).\r\n\r\n## AfxHookGoldSrc 2.23.0 (2024-05-03T17:45Z)\r\n- Fixed mirv_campath offset not working.\r\n- Added mirv_campath hold.\r\n\r\n## AfxHookSource 1.127.0 (2024-05-03T17:45Z)\r\n- Added mirv_campath hold.\r\n\r\n## AfxHookSource2 0.13.0 (2024-05-03T17:45Z)\r\n- Added mirv_campath hold."
 }
