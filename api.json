@@ -1,6 +1,7 @@
 {
-  "Version": "v2.163.0",
+  "Version": "v2.163.1",
   "VersionList": [
+    "v2.163.1",
     "v2.163.0",
     "v2.162.0",
     "v2.161.0",
@@ -127,12 +128,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2024-05-24T09:18:11Z",
-  "CheckTime": "2024-05-24T09:18Z",
+  "ReleaseTime": "2024-05-24T21:23:30Z",
+  "CheckTime": "2024-05-24T21:23Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource2 0.15.0 (2024-05-24T09:00Z).\r\n\r\n## AfxHookSource2 0.15.0 (2024-05-24T09:00Z)\r\n- Adjusted to CS2 update.\r\n- Added new features to mirv-script.\r\n- Fixed a few things in mirv-script.\r\n- Improved parameters in HLAE interfaces advancedfx/advancedfx#944"
+  "ReleaseNote": "## HLAE 2.163.1 (2024-05-24T21:00Z)\r\n- Included AfxHookGoldSrc 2.23.1 (2024-05-24T21:00Z).\r\n- Included AfxHookSource 1.127.1 (2024-05-24T21:00Z).\r\n- Included AfxHookSource2 0.15.1 (2024-05-24T21:00Z).\r\n\r\n## AfxHookGoldSrc 2.23.1 (2024-05-24T21:00Z)\r\n- Added raw keyboard handling to mirv_input.\r\n\r\n## AfxHookSource 1.127.1 (2024-05-24T21:00Z)\r\n- Added raw keyboard handling to mirv_input.\r\n\r\n## AfxHookSource2 0.15.1 (2024-05-24T21:00Z)\r\n- Added raw keyboard handling to mirv_input. Fixes #946 CS2: issue with binds in mirv_input camera."
 }
