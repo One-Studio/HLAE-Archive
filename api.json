@@ -1,6 +1,7 @@
 {
-  "Version": "v2.163.2",
+  "Version": "v2.163.3",
   "VersionList": [
+    "v2.163.3",
     "v2.163.2",
     "v2.163.1",
     "v2.163.0",
@@ -129,12 +130,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2024-05-25T14:31:55Z",
-  "CheckTime": "2024-05-25T14:32Z",
+  "ReleaseTime": "2024-05-25T20:45:11Z",
+  "CheckTime": "2024-05-25T20:45Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookGoldSrc 2.23.2 (2024-05-25T14:10Z).\r\n-Included AfxHookSource 1.127.2 (2024-05-25T14:10Z).\r\n- Included AfxHookSource2 0.15.2 (2024-05-25T14:10Z).\r\n\r\n## AfxHookGoldSrc 2.23.2 (2024-05-25T16:10Z)\r\n- Fixed unwanted VK_ADD / VK_SUBSTRACT passthroughs in mirv_input.\r\n\r\n## AfxHookSource 1.127.2 (2024-05-25T16:10Z)\r\n- Fixed unwanted VK_ADD / VK_SUBSTRACT passthroughs in mirv_input.\r\n\r\n## AfxHookSource2 0.15.2 (2024-05-25T16:10Z)\r\n- Fixed unwanted VK_ADD / VK_SUBSTRACT passthroughs in mirv_input."
+  "ReleaseNote": "- Included AfxHookGoldSrc 2.23.3 (2024-05-25T20:30Z).\r\n- Included AfxHookSource 1.127.3 (2024-05-25T20:30Z).\r\n- Included AfxHookSource2 0.15.3 (2024-05-25T20:30Z).\r\n\r\n## AfxHookGoldSrc 2.23.3 (2024-05-25T20:30Z)\r\n- Fixed mirv_input iteration of raw input buffer, causing troubles e.g. when using AutoHokey.\r\n\r\n## AfxHookSource 1.127.3 (2024-05-25T20:30Z)\r\n- Fixed mirv_input iteration of raw input buffer, causing troubles e.g. when using AutoHokey.\r\n\r\n## AfxHookSource2 0.15.3 (2024-05-25T20:30Z)\r\n- Fixed mirv_input iteration of raw input buffer, causing troubles e.g. when using AutoHokey."
 }
