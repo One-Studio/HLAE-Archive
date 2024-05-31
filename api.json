@@ -1,6 +1,7 @@
 {
-  "Version": "v2.163.4",
+  "Version": "v2.164.0",
   "VersionList": [
+    "v2.164.0",
     "v2.163.4",
     "v2.163.3",
     "v2.163.2",
@@ -131,12 +132,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2024-05-27T04:15:35Z",
-  "CheckTime": "2024-05-27T04:16Z",
+  "ReleaseTime": "2024-05-31T09:35:47Z",
+  "CheckTime": "2024-05-31T09:36Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookGoldSrc 2.23.4 (2024-05-27T04:00Z).\r\n- Included AfxHookSource 1.127.4 (2024-05-27T04:00Z).\r\n- Included AfxHookSource2 0.15.4 (2024-05-27T04:00Z).\r\n\r\n## AfxHookGoldSrc 2.23.4 (2024-05-27T04:00Z)\r\n- Fixed mirv_input raw input buffer mouse wheel handling.\r\n\r\n## AfxHookSource 1.127.4 (2024-05-27T04:00Z)\r\n- Fixed mirv_input raw input buffer mouse wheel handling.\r\n\r\n## AfxHookSource2 0.15.4 (2024-05-27T04:00Z)\r\n- Fixed mirv_input raw input buffer mouse wheel handling."
+  "ReleaseNote": "- Included AfxHookSource2 0.16.0 (2024-05-31T09:20Z).\r\n\r\n## AfxHookSource2 0.16.0 (2024-05-31T09:20Z)\r\n- Adjustes to CS2 update."
 }
