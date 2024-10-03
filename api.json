@@ -1,6 +1,7 @@
 {
-  "Version": "v2.172.0.1",
+  "Version": "v2.172.1",
   "VersionList": [
+    "v2.172.1",
     "v2.172.0.1",
     "v2.171.1",
     "v2.171.0",
@@ -144,12 +145,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2024-10-03T10:41:49Z",
-  "CheckTime": "2024-10-03T10:42Z",
+  "ReleaseTime": "2024-10-03T13:28:15Z",
+  "CheckTime": "2024-10-03T13:28Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookGoldSrc 2.24.0 (2024-10-03T10:00Z).\r\n- Included AfxHookSource 1.129.0 (2024-10-03T10:00Z).\r\n- Included AfxHookSource2 0.23.0 (2024-10-03T10:00Z).\r\n\r\n## AfxHookGoldSrc 2.24.0 (2024-10-03T10:00Z)\r\n- Added mirv_movie_campath. Set to 1 to save current campath to take folder (if not empty).\r\n-Fixed error in hooks for TFC due to 2 Oct 2024 update.\r\n- Fixed bugs in mirv_deathmsg list handling that could have lead to crashes.\r\n- Fixed mirv_deathmsg fake for TFC.\r\n\r\n## AfxHookSource 1.129.0 (2024-10-03T10:00Z)\r\n- Added mirv_streams record campath 0|1. Set to 1 to save current campath to take folder (if not empty).\r\n- Fixed broken audio with mirv_streams record screen in games other than CS:GO when using scheduled recordings (e.g. with .vdm files).\r\n\r\n## AfxHookSource2 0.23.0 (2024-10-03T10:00Z)\r\n- Adjusted to Oct 2 2024 CS2 update.\r\n- Added mirv_streams record campath 0|1. Set to 1 to save current campath to take folder (if not empty)."
+  "ReleaseNote": "- Included AfxHookSource2 0.24.0 (2024-10-03T13:00Z).\r\n\r\n## AfxHookSource2 0.24.0 (2024-10-03T13:00Z)\r\n- Fixed #989 mirv_viewmodel doesnt work on latest HLAE/CS2 (thanks @ChetdeJong).\r\n- Fixed #988 Movie recording failed - Missing expected pixels error.\r\n- Fixed #990 no audio file when recording with mirv_streams in CS2.\r\n- Fixed #991 ticks / DemoIsPaused not detected properly in CS2."
 }
