@@ -1,6 +1,7 @@
 {
-  "Version": "v2.172.2",
+  "Version": "v2.172.3",
   "VersionList": [
+    "v2.172.3",
     "v2.172.2",
     "v2.172.1",
     "v2.172.0.1",
@@ -146,12 +147,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2024-10-03T14:07:25Z",
-  "CheckTime": "2024-10-03T14:07Z",
+  "ReleaseTime": "2024-10-05T12:59:53Z",
+  "CheckTime": "2024-10-05T13:00Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource2 0.24.1 (2024-10-03T14:00Z).\r\n\r\n## AfxHookSource2 0.24.1 (2024-10-03T14:00Z)\r\n- Fixed engine to client interface again (affecting e.g. mirv_cmd or script mirv.exec) (thanks @akiver)."
+  "ReleaseNote": "- Included AfxHookSource2 0.24.2 (2024-10-05T12:45Z).\r\n\r\n## AfxHookSource2 0.24.2 (2024-10-05T12:45Z)\r\n- Adjusted to Oct 4 2024 CS2 update.\r\n- Added fix #993 for bug with local player in mirv_deathmsg in AfxHookSource2."
 }
