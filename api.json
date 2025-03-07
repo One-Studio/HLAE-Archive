@@ -1,6 +1,7 @@
 {
-  "Version": "v2.180.0",
+  "Version": "v2.180.1",
   "VersionList": [
+    "v2.180.1",
     "v2.180.0",
     "v2.179.0",
     "v2.177.0",
@@ -156,12 +157,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2025-03-03T20:58:16Z",
-  "CheckTime": "2025-03-03T20:58Z",
+  "ReleaseTime": "2025-03-07T07:45:05Z",
+  "CheckTime": "2025-03-07T07:45Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource 1.131.0 (2025-03-03T20:00Z).\r\n- Updated HLAE installer FFMPEG version, see comments below regarding bug workaround.\r\n- Added FAQ link in help menu and re-ordered the menu.\r\n- Added dismissible warnings from download page to GUI.\r\n\r\nThere's a known bug with HLAE_Setup.exe when upgrading from an older HLAE version to a newer one and reinstalling the newer FFMPEG: It will install the newer FFMPEG and the install over that the older one again. This issue can be worked around by doing a repair install (run newest HLAE_Setup.exe one more time and chose repair). \r\n\r\n## AfxHookSource 1.131.0 (2025-03-03T20:00Z)\r\n\r\n- Adjusted to latest CSS update, fixes #1030.\r\n- Added mirv_streams record screen afterSwap 0|1 (helps with ReShade e.g.), implements #1027.\r\n\r\nSeveral Source 1 games now need the -force32bit option for HLAE to work, see https://github.com/advancedfx/advancedfx/wiki/AfxHookSource for examples. "
+  "ReleaseNote": "- Included AfxHookSource2 0.30.2 (2025-03-07T07:30Z).\r\n\r\n## AfxHookSource2 0.30.2 (2025-03-07T07:30Z)\r\n- mirv-script: fixed #1032 mirv.onAddEntity and mirv.onRemoveEntity."
 }
