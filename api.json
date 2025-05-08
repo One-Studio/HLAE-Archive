@@ -1,6 +1,7 @@
 {
-  "Version": "v2.182.4",
+  "Version": "v2.182.6",
   "VersionList": [
+    "v2.182.6",
     "v2.182.4",
     "v2.182.3",
     "v2.181.1",
@@ -160,12 +161,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2025-04-30T12:28:23Z",
-  "CheckTime": "2025-04-30T12:28Z",
+  "ReleaseTime": "2025-05-08T12:11:36Z",
+  "CheckTime": "2025-05-08T12:11Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Fixed HLAE Setup not uinstalling old HLAE properly and getting stuck. Otherwise this is the same as 2.182.3.\r\n\r\nSee changelog of [HLAE 2.182.3 (2025-04-29T13:15Z)](https://github.com/advancedfx/advancedfx/releases/tag/v2.182.3) for more details on mirv_streams."
+  "ReleaseNote": "- Included AfxHookSource2 0.32.3 (2025-05-08T11:45Z).\r\n\r\n## AfxHookSource2 0.32.3 (2025-05-08T11:45Z)\r\n- Adjust to latest CS2 update by @ChetdeJong"
 }
