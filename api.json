@@ -1,6 +1,7 @@
 {
-  "Version": "v2.183.0",
+  "Version": "v2.183.1",
   "VersionList": [
+    "v2.183.1",
     "v2.183.0",
     "v2.182.6",
     "v2.182.4",
@@ -162,12 +163,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2025-05-16T16:46:18Z",
-  "CheckTime": "2025-05-16T16:46Z",
+  "ReleaseTime": "2025-05-19T12:51:01Z",
+  "CheckTime": "2025-05-19T12:51Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource2 0.33.0 (2025-05-16T16:30Z).\r\n\r\n## AfxHookSource2 0.33.0 (2025-05-16T16:30Z)\r\n- Add to mirv-script: mirv.getCurTime, mirv.getDemoTick, mirv.getDemoTime by @ChetdeJong\r\n- Fixed mirv_streams frames dropped / missing.\r\n- Fixed mirv_streams depth stream not properly working due to missing shader input layout (AMD), thanks to ghettoboi for testing."
+  "ReleaseNote": "- Included AfxHookSource 1.131.1 (2025-05-19T12:45Z).\r\n\r\n## AfxHookSource 1.131.1 (2025-05-19T12:45Z)\r\n- Fixes CS:S screen recording being broken / crashing."
 }
