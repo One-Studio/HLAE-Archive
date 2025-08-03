@@ -1,6 +1,7 @@
 {
-  "Version": "v2.186.3",
+  "Version": "v2.186.4",
   "VersionList": [
+    "v2.186.4",
     "v2.186.3",
     "v2.186.2",
     "v2.185.3",
@@ -170,12 +171,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2025-08-01T07:24:57Z",
-  "CheckTime": "2025-08-01T07:25Z",
+  "ReleaseTime": "2025-08-03T15:58:47Z",
+  "CheckTime": "2025-08-03T15:59Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource2 0.36.3 (2025-08-01T07:00Z).\r\n\r\n## AfxHookSource2 0.36.3 (2025-08-01T07:00Z)\r\n- Fixed mirv.script Entity.getClientClassName, thanks to @ChetdeJong"
+  "ReleaseNote": "- Included AfxHookSource 1.32.1 (2025-08-03T15:00Z).\r\n\r\n## AfxHookSource 1.132.1 (2025-08-03T15:00Z)\r\n- Fixes #1085 CS:GO doesn't work properly after loading HLAE."
 }
