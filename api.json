@@ -1,6 +1,7 @@
 {
-  "Version": "v2.186.9",
+  "Version": "v2.186.10",
   "VersionList": [
+    "v2.186.10",
     "v2.186.9",
     "v2.186.8",
     "v2.186.6",
@@ -175,12 +176,12 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2025-08-15T23:02:02Z",
-  "CheckTime": "2025-08-15T23:02Z",
+  "ReleaseTime": "2025-08-17T12:11:57Z",
+  "CheckTime": "2025-08-17T12:12Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource2 0.36.8 (2025-08-15T23:00Z)\r\n\r\n## AfxHookSource2 0.36.8 (2025-08-15T23:00Z)\r\n- Fixed vtable offsets for render eye origin and angles (also affects e.g. mirv_deathmsg localPlayer xTrace) and offets for origin."
+  "ReleaseNote": "- Included AfxHookSource2 0.36.9 (2025-08-17T12:30Z)\r\n\r\n## AfxHookSource2 0.36.9 (2025-08-17T12:30Z)\r\n- Fixed mirv_colors teamid not updating like before when toggling sv_teamid_overhead false/true"
 }
