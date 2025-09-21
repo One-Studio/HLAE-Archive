@@ -1,6 +1,7 @@
 {
-  "Version": "v2.186.17",
+  "Version": "v2.187.0",
   "VersionList": [
+    "v2.187.0",
     "v2.186.17",
     "v2.186.16",
     "v2.186.15",
@@ -182,12 +183,14 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2025-09-17T13:03:04Z",
-  "CheckTime": "2025-09-17T13:03Z",
+  "ReleaseTime": "2025-09-21T13:26:21Z",
+  "CheckTime": "2025-09-21T13:26Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
-    "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_Setup.exe"
+    "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
+    "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_setup.exe",
+    "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_setup.exe.asc"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource2 0.36.15 (2025-09-17T12:44Z)\r\n\r\n##  AfxHookSource2 0.36.15 (2025-09-17T12:44Z)\r\n- Fixed recording not working. Team effort @ChetdeJong and @dtugend "
+  "ReleaseNote": "- Included AfxHookSource2 0.37.0 (2025-09-21T12:50Z)\r\n\r\n## AfxHookSource2 0.37.0 (2025-09-21T12:50Z)\r\n- Added CS2 launcher.\r\n- Added mirv_sky.\r\n- Added mirv_glow.\r\n- Added mirv_listentities.\r\n\r\nSince this version if USRLOCALCSGO environment variable is specified it's passed to CS2 game's search paths. If using new CS2 launcher with moviemaking folder, then no need to specify anything additional, it will work the same way as it was in CSGO. \r\n\r\nRead about CS2 launcher here:\r\nhttps://github.com/advancedfx/advancedfx/wiki/AfxHookSource2\r\n\r\nDocumentation for new commands could be found here:\r\nhttps://github.com/advancedfx/advancedfx/wiki/Source2%3ACommands"
 }
