@@ -1,6 +1,7 @@
 {
-  "Version": "v2.187.6",
+  "Version": "v2.188.0",
   "VersionList": [
+    "v2.188.0",
     "v2.187.6",
     "v2.187.5",
     "v2.187.4",
@@ -189,8 +190,8 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2025-11-06T19:23:46Z",
-  "CheckTime": "2025-11-06T19:24Z",
+  "ReleaseTime": "2026-01-07T15:07:35Z",
+  "CheckTime": "2026-01-07T15:08Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
@@ -198,5 +199,5 @@
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_setup.exe.asc"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource2 0.37.6 (2025-11-06T19:03Z)\r\n\r\n## AfxHookSource2 0.37.6 (2025-11-06T19:03Z)\r\n- Added `mirv_panorama` command. Currently it only allows to set opacity property for some panels. \u003cbr\u003eExample: \u003cbr\u003e`mirv_panorama panelstyle panelId=trueview_row opacity=0` to hide TrueView telemetry text in the top right.\u003cbr\u003eMore details could be found on [wiki page](https://github.com/advancedfx/advancedfx/wiki/Source2%3ACommands)\r\n"
+  "ReleaseNote": "This update is brought to you by @dtugend \r\n\r\n- Included AfxHookGoldSrc 2.25.0 (2026-01-07T14:13Z)\r\n- Included AfxHookSource 1.133.0 (2026-01-07T14:13Z)\r\n- Included AfxHookSource2 0.38.0 (2026-01-07T14:13Z)\r\n\r\n## AfxHookGoldSrc 2.25.0 (2026-01-07T14:13Z)\r\n- Added FFMPEG pixfmt grayf32le for ZFloat images (e.g. for depth streams)\r\n- Updated FFMPEG version to v8.0.1-17 in installer\r\n- ImageBuffer architectural changes (internal changes, should be mostly transparent)\r\n\r\n## AfxHookSource 1.133.0 (2026-01-07T14:13Z)\r\n- Added FFMPEG pixfmt grayf32le for ZFloat images (e.g. for depth streams)\r\n- Updated FFMPEG version to v8.0.1-17 in installer\r\n- ImageBuffer architectural changes (internal changes, should be mostly transparent)\r\n- Added an interleave setting, that has multiple inputs and interleaves them in given order into output e.g. depth based matte with median filter to filter out speckles.\r\n\r\n## AfxHookSource2 0.38.0 (2026-01-07T14:13Z)\r\n- Added FFMPEG pixfmt grayf32le for ZFloat images (e.g. for depth streams)\r\n- Updated FFMPEG version to v8.0.1-17 in installer\r\n- ImageBuffer architectural changes (internal changes, should be mostly transparent)\r\n- Added an interleave setting, that has multiple inputs and interleaves them in given order into output e.g. depth based matte with median filter to filter out speckles.\r\n- mirv_streams improvements: clearBeforeUi is not globally shared anymore. Added multi-pass (e.g. for proper hud separation), see wiki for examples. Thanks to @IMakeThingsWithCode for some ideas.\r\n- mirv-script: added notes when features were added in types files.\r\n\r\n\r\nAlso see new examples for mirv_streams in cs2:\r\nhttps://github.com/advancedfx/advancedfx/wiki/Source2:mirv_streams\r\n"
 }
