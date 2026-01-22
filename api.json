@@ -1,6 +1,7 @@
 {
-  "Version": "v2.189.0",
+  "Version": "v2.189.1",
   "VersionList": [
+    "v2.189.1",
     "v2.189.0",
     "v2.188.0",
     "v2.187.6",
@@ -191,8 +192,8 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2026-01-22T12:32:31Z",
-  "CheckTime": "2026-01-22T12:32Z",
+  "ReleaseTime": "2026-01-22T22:09:09Z",
+  "CheckTime": "2026-01-22T22:09Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
@@ -200,5 +201,5 @@
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_setup.exe.asc"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource 1.134.0 (2026-01-22T12:21Z)\r\n- Included AfxHookSource2 0.38.1 (2026-01-22T12:21Z)\r\n\r\n## AfxHookSource 1.134.0 (2026-01-22T12:21Z)\r\n- Added 64-bit support for TF2. See launching instructions on wiki https://github.com/advancedfx/advancedfx/wiki/AfxHookSource#launching-team-fortress-2-x64\r\n\r\n## AfxHookSource2 0.38.1 (2026-01-22T12:21Z)\r\n- Adjusted to CS2 update (1.41.3.0)\r\n"
+  "ReleaseNote": "- Included AfxHookSource2 0.38.2 (2026-01-22T21:51Z)\r\n\r\n## AfxHookSource2 0.38.2 (2026-01-22T21:51Z)\r\n- Fixed crash when spectated player dies while trueview is enabled\r\n"
 }
