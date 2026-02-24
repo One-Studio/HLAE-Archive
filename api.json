@@ -1,6 +1,7 @@
 {
-  "Version": "v2.189.5",
+  "Version": "v2.189.6",
   "VersionList": [
+    "v2.189.6",
     "v2.189.5",
     "v2.189.4",
     "v2.189.3",
@@ -196,8 +197,8 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2026-02-10T06:06:10Z",
-  "CheckTime": "2026-02-10T06:06Z",
+  "ReleaseTime": "2026-02-24T10:28:06Z",
+  "CheckTime": "2026-02-24T10:28Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
@@ -205,5 +206,5 @@
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_setup.exe.asc"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource2 0.38.5 (2026-02-10T05:54Z)\r\n\r\n## AfxHookSource2 0.38.5 (2026-02-10T05:54Z)\r\n- Adjusted to CS2 update (1.41.3.5)\r\n"
+  "ReleaseNote": "- Included AfxHookSource 1.135.0 (2026-02-24T09:58Z)\r\n- Included AfxHookSource2 0.38.6 (2026-02-24T09:58Z)\r\n\r\n## AfxHookSource 1.135.0 (2026-02-24T09:58Z)\r\n- Added support for TF2 Classified by @Devostated \r\n\r\n## AfxHookSource2 0.38.6 (2026-02-24T09:58Z)\r\n- mirv-script: added mirv_script_view snippet by @dtugend \r\n- Fixed HLAE recording skipping frames when recording is slow by @dtugend \r\n"
 }
