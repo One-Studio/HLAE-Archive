@@ -1,6 +1,7 @@
 {
-  "Version": "v2.189.7",
+  "Version": "v2.189.8",
   "VersionList": [
+    "v2.189.8",
     "v2.189.7",
     "v2.189.6",
     "v2.189.5",
@@ -198,8 +199,8 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2026-03-13T13:36:32Z",
-  "CheckTime": "2026-03-13T13:36Z",
+  "ReleaseTime": "2026-04-21T00:25:31Z",
+  "CheckTime": "2026-04-21T00:25Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
@@ -207,5 +208,5 @@
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_setup.exe.asc"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookGoldSrc 2.25.1 (2026-03-13T12:46Z)\r\n- Included AfxHookSource 1.135.1 (2026-03-13T12:46Z)\r\n- Included AfxHookSource2 0.38.7 (2026-03-13T12:46Z)\r\n- Added fr-FR translation by @playsur3-pixel\r\n\r\n## AfxHookGoldSrc 2.25.1 (2026-03-13T12:46Z)\r\n- Fixed depth recording crashes the game introduced in HLAE 2.188.0\r\n\r\n## AfxHookSource 1.135.1 (2026-03-13T12:46Z)\r\n- Fixed recording dead-locks for games using non-queued rendering\r\n\r\n## AfxHookSource2 0.38.7 (2026-03-13T12:46Z)\r\n- Fixed missing smoke in depth stream\r\n- mirv-script: fixed typo in campath setAngles binding (thanks @wuXinnnn)\r\n- mirv-script: updated BoaJS to v0.21\r\n- mirv-script: added mirv_script_spec_lock snippet\r\n"
+  "ReleaseNote": "- Included AfxHookGoldSrc 2.25.2 (2026-04-20T23:50Z)\r\n- Included AfxHookSource2 0.38.8 (2026-04-20T23:50Z)\r\n\r\n## AfxHookGoldSrc 2.25.2 (2026-04-20T23:50Z)\r\n- Fixed matte problems in dem_forcehltv 1\r\n- steam_legacy branch is now supported again\r\n\r\n## AfxHookSource2 0.38.8 (2026-04-20T23:50Z)\r\n- Adjusted to CS2 update (1.41.5.1)\r\n- Fixed minor bug in mirv_deathmsg\r\n- mirv-script: fixed mirv.onRecordStart, mirv.onRecordEnd types declaration\r\n"
 }
