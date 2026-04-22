@@ -1,6 +1,7 @@
 {
-  "Version": "v2.189.8",
+  "Version": "v2.189.9",
   "VersionList": [
+    "v2.189.9",
     "v2.189.8",
     "v2.189.7",
     "v2.189.6",
@@ -199,8 +200,8 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2026-04-21T00:25:31Z",
-  "CheckTime": "2026-04-21T00:25Z",
+  "ReleaseTime": "2026-04-22T00:02:17Z",
+  "CheckTime": "2026-04-22T00:02Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
@@ -208,5 +209,5 @@
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_setup.exe.asc"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookGoldSrc 2.25.2 (2026-04-20T23:50Z)\r\n- Included AfxHookSource2 0.38.8 (2026-04-20T23:50Z)\r\n\r\n## AfxHookGoldSrc 2.25.2 (2026-04-20T23:50Z)\r\n- Fixed matte problems in dem_forcehltv 1\r\n- steam_legacy branch is now supported again\r\n\r\n## AfxHookSource2 0.38.8 (2026-04-20T23:50Z)\r\n- Adjusted to CS2 update (1.41.5.1)\r\n- Fixed minor bug in mirv_deathmsg\r\n- mirv-script: fixed mirv.onRecordStart, mirv.onRecordEnd types declaration\r\n"
+  "ReleaseNote": "- Included AfxHookSource2 0.38.9 (2026-04-21T23:46Z)\r\n\r\n## AfxHookSource2 0.38.9 (2026-04-21T23:46Z)\r\n- mirv-script: fixed Entity.getAttachment returning wrong values (thanks paper @papesgit for reporting/help)\r\n"
 }
