@@ -1,6 +1,7 @@
 {
-  "Version": "v2.191.0",
+  "Version": "v2.191.1",
   "VersionList": [
+    "v2.191.1",
     "v2.191.0",
     "v2.190.2",
     "v2.190.1",
@@ -204,8 +205,8 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2026-07-10T14:35:38Z",
-  "CheckTime": "2026-07-10T14:36Z",
+  "ReleaseTime": "2026-07-16T14:44:23Z",
+  "CheckTime": "2026-07-16T14:45Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
@@ -213,5 +214,5 @@
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_setup.exe.asc"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookGoldSrc 2.25.3 (2026-07-10T14:17Z)\r\n- Included AfxHookSource2 0.40.0 (2026-07-10T14:17Z)\r\n- HLAE (Installer): Updated installer FFMPEG to 8.1.1-9 (BtbN)\r\n- HLAE: Customloader Environment Variables are now empty by default for new installs (usually not needed)\r\n\r\n## AfxHookGoldSrc 2.25.3 (2026-07-10T14:17Z)\r\n- Fixed #1181 GoldSrc: audio bugged in steam + steam_legacy in latest HLAE version\r\n\r\n## AfxHookSource2 0.40.0 (2026-07-10T14:17Z)\r\n- mirv-script: added mirv.getDemoFilePath (pre-work for #1173)\r\n- mirv-script: Added mirv.fs object with some file system functions (pre-work for #1173)\r\n- mirv-script: Added mirv.resolveGamePath and mirv.getGameDirectory (pre-work for #1173)\r\n- mirv-script (internal change should be transparent): switched websocket from async-std-rutime to smol-runtime\r\n- Adjusted to CS2 update (1.41.6.8). Thanks for help to @Co1Swet @kaputlog @gammacase\r\n\r\nNotice for mirv-script users, if you use a custom FRAME_RENDER_PASS constant: [changed from 11 to 12](https://github.com/advancedfx/advancedfx/commit/1a5681e91fa36d8ca45a517474a46a54531e5147)."
+  "ReleaseNote": "- Included AfxHookSource2 0.40.1 (2026-07-16T14:23Z)\r\n\r\n## AfxHookSource2 0.40.1 (2026-07-16T14:23Z)\r\n- Fixed `mirv_replace_name`. There are breaking changes: renamed subcommands debug to oldDebug, decoDebug to debug; removed deco subcommands; added optional clan tag parameter to the add* sub commmands. See in-game help for command.\r\n- Fixed `mirv_deathmsg lifeTimeMod` not working correctly.\r\n"
 }
