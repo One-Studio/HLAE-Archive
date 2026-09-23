@@ -1,6 +1,7 @@
 {
-  "Version": "v2.192.2",
+  "Version": "v2.192.3",
   "VersionList": [
+    "v2.192.3",
     "v2.192.2",
     "v2.191.1",
     "v2.191.0",
@@ -206,8 +207,8 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "ReleaseTime": "2026-09-12T15:23:25Z",
-  "CheckTime": "2026-09-12T15:24Z",
+  "ReleaseTime": "2026-09-23T14:56:05Z",
+  "CheckTime": "2026-09-23T14:56Z",
   "DownloadLink": [
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/hlae.zip",
@@ -215,5 +216,5 @@
     "https://cdn.jsdelivr.net/gh/One-Studio/HLAE-Archive@master/dist/HLAE_setup.exe.asc"
   ],
   "Format": 1,
-  "ReleaseNote": "- Included AfxHookSource 1.135.2 (2026-09-12T14:47Z)\r\n- Included AfxHookSource2 0.41.2 (2026-09-12T14:47Z)\r\n\r\n## AfxHookSource 1.135.2 (2026-09-12T14:47Z)\r\n- Adjusted to be compatible with latest gmod update. Thanks @Devostated\r\n\r\n## AfxHookSource2 0.41.2 (2026-09-12T14:47Z)\r\n- Merged latest version of alpha matte mirv_streams, [see wiki for example.](https://github.com/advancedfx/advancedfx/wiki/Source2:mirv_streams#multi-stream-recording) Thanks @papesgit for initial research/code and @dtugend for implementation.\r\n- Fixed low FPS player animations / stuttering in recordings by adding `mirv_fix forceClInterpRatio`, which is enabled by default.\r\n\r\n# Includes HLAE 2.192.1 (2026-07-29T08:07Z) pre-release\r\n- Included AfxHookSource2 0.41.1 (2026-07-29T08:07Z)\r\n\r\n## AfxHookSource2 0.41.1 (2026-07-29T08:07Z)\r\n- Small mirv_streams improvements with regards to world / matte / viewmodel streams.\r\n\r\n# Includes HLAE 2.192.0 (2026-07-21T07:47Z) pre-release\r\n- Included AfxHookSource2 0.41.0 (2026-07-21T07:47Z)\r\n\r\n## AfxHookSource2 0.41.0 (2026-0721T07:47Z)\r\n- Fixed #1199 spec_show_xray 1 make the game crash when using demo_goto with xplay.gg demos.\r\n- Added mirv_streams settings presets afxFfmpegProres, afxFfmpegProresAlpha.\r\n- Added mirv_streams features mostly based on contributions by @papesgit. Examples will be added to HLAE Manual / Wiki later, currently see the related pull request for more information: https://github.com/advancedfx/advancedfx/pull/1176"
+  "ReleaseNote": "- Included AfxHookSource2 0.41.3 (2026-09-23T14:38Z)\r\n\r\n## AfxHookSource2 0.41.3 (2026-09-23T14:38Z)\r\n- Adjusted to CS2 update (1.41.8.2). Thanks @kaputlog and @dtugend\r\n"
 }
