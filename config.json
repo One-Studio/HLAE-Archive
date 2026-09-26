@@ -9,8 +9,9 @@
   "ArchiverGH": true,
   "ArchiverAPI": "",
   "ArchiverVersion": "v1.2.1",
-  "Version": "v2.192.5",
+  "Version": "v2.192.6",
   "VersionList": [
+    "v2.192.6",
     "v2.192.5",
     "v2.192.4",
     "v2.192.3",
@@ -219,7 +220,7 @@
     "v2.109.2",
     "v2.109.1"
   ],
-  "CheckTime": "2026-09-26T07:47Z",
+  "CheckTime": "2026-09-26T15:59Z",
   "Format": 1,
   "CompRatio": 2,
   "DistPath": "dist",
